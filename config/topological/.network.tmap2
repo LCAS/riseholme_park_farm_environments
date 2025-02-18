@@ -9,8 +9,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint140_WayPoint74
       fail_policy: fail
@@ -24,8 +24,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint140_WayPoint141
       fail_policy: fail
@@ -39,8 +39,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint140_WayPoint142
       fail_policy: fail
@@ -95,8 +95,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint141_WayPoint73
       fail_policy: fail
@@ -110,8 +110,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint141_WayPoint140
       fail_policy: fail
@@ -125,8 +125,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint141_WayPoint144
       fail_policy: fail
@@ -181,8 +181,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint142_WayPoint140
       fail_policy: fail
@@ -196,8 +196,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint142_WayPoint66
       fail_policy: fail
@@ -211,8 +211,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint142_WayPoint56
       fail_policy: fail
@@ -267,8 +267,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint143_WayPoint68
       fail_policy: fail
@@ -282,8 +282,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint143_WayPoint144
       fail_policy: fail
@@ -338,8 +338,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint56_WayPoint142
       fail_policy: fail
@@ -353,8 +353,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint56_WayPoint63
       fail_policy: fail
@@ -368,8 +368,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint56_WayPoint66
       fail_policy: fail
@@ -383,8 +383,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint56_r8.5-ca
       fail_policy: fail
@@ -398,8 +398,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint56_r7.5-ca
       fail_policy: fail
@@ -413,8 +413,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint56_r9-ca
       fail_policy: fail
@@ -428,8 +428,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint56_r8-ca
       fail_policy: fail
@@ -443,8 +443,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint56_r7-ca
       fail_policy: fail
@@ -499,8 +499,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint63_WayPoint56
       fail_policy: fail
@@ -514,8 +514,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint63_r9.5-ca
       fail_policy: fail
@@ -529,8 +529,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint63_r10-ca
       fail_policy: fail
@@ -544,8 +544,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint63_r9-ca
       fail_policy: fail
@@ -600,8 +600,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint66_WayPoint142
       fail_policy: fail
@@ -615,8 +615,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint66_WayPoint56
       fail_policy: fail
@@ -630,8 +630,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint66_WayPoint74
       fail_policy: fail
@@ -645,8 +645,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint66_r6.5-ca
       fail_policy: fail
@@ -660,8 +660,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint66_r6-ca
       fail_policy: fail
@@ -675,8 +675,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint66_r7-ca
       fail_policy: fail
@@ -731,8 +731,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint67_WayPoint73
       fail_policy: fail
@@ -746,8 +746,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint67_r1.5-ca
       fail_policy: fail
@@ -761,8 +761,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint67_r1-ca
       fail_policy: fail
@@ -776,8 +776,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint67_r2-ca
       fail_policy: fail
@@ -791,8 +791,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint67_WayPoint144
       fail_policy: fail
@@ -847,8 +847,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint68_WayPoint69
       fail_policy: fail
@@ -862,8 +862,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint68_WayPoint143
       fail_policy: fail
@@ -918,8 +918,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint69_WayPoint68
       fail_policy: fail
@@ -933,8 +933,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint69_WayPoint70
       fail_policy: fail
@@ -948,8 +948,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint69_WayPoint71
       fail_policy: fail
@@ -963,8 +963,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint69_WayPoint72
       fail_policy: fail
@@ -978,8 +978,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint69_s0
       fail_policy: fail
@@ -1034,8 +1034,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint70_WayPoint69
       fail_policy: fail
@@ -1050,7 +1050,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: dock
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint70_dock-2
       fail_policy: fail
@@ -1105,8 +1105,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint71_WayPoint69
       fail_policy: fail
@@ -1121,7 +1121,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: dock
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint71_dock-1
       fail_policy: fail
@@ -1176,8 +1176,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint72_WayPoint69
       fail_policy: fail
@@ -1192,7 +1192,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: dock
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint72_dock-0
       fail_policy: fail
@@ -1247,8 +1247,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint73_WayPoint67
       fail_policy: fail
@@ -1262,8 +1262,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint73_WayPoint74
       fail_policy: fail
@@ -1277,8 +1277,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint73_WayPoint141
       fail_policy: fail
@@ -1292,8 +1292,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint73_r3.5-ca
       fail_policy: fail
@@ -1307,8 +1307,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint73_r2.5-ca
       fail_policy: fail
@@ -1322,8 +1322,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint73_r4-ca
       fail_policy: fail
@@ -1337,8 +1337,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint73_r3-ca
       fail_policy: fail
@@ -1352,8 +1352,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint73_r2-ca
       fail_policy: fail
@@ -1408,8 +1408,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint74_WayPoint66
       fail_policy: fail
@@ -1423,8 +1423,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint74_WayPoint73
       fail_policy: fail
@@ -1438,8 +1438,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint74_WayPoint140
       fail_policy: fail
@@ -1453,8 +1453,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint74_r4.5-ca
       fail_policy: fail
@@ -1468,8 +1468,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint74_r5-ca
       fail_policy: fail
@@ -1483,8 +1483,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint74_r4-ca
       fail_policy: fail
@@ -1540,7 +1540,7 @@ nodes:
   node:
     edges:
     - action: undock
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: dock-0_WayPoint72
       fail_policy: fail
@@ -1596,7 +1596,7 @@ nodes:
   node:
     edges:
     - action: undock
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: dock-1_WayPoint71
       fail_policy: fail
@@ -1652,7 +1652,7 @@ nodes:
   node:
     edges:
     - action: undock
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: dock-2_WayPoint70
       fail_policy: fail
@@ -1708,7 +1708,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-ca_r5.7-cb
       fail_policy: fail
@@ -1723,7 +1723,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-ca_r6.5-ca
       fail_policy: fail
@@ -1779,7 +1779,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-cb_r5.7-ca
       fail_policy: fail
@@ -1794,7 +1794,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-cb_r5.7-c0
       fail_policy: fail
@@ -1850,7 +1850,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c0_r5.7-cb
       fail_policy: fail
@@ -1865,7 +1865,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c0_r5.7-c1
       fail_policy: fail
@@ -1921,7 +1921,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c1_r5.7-c0
       fail_policy: fail
@@ -1936,7 +1936,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c1_r5.7-c2
       fail_policy: fail
@@ -1992,7 +1992,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c2_r5.7-c1
       fail_policy: fail
@@ -2007,7 +2007,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c2_r5.7-c3
       fail_policy: fail
@@ -2063,7 +2063,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c3_r5.7-c2
       fail_policy: fail
@@ -2078,7 +2078,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c3_r5.7-c4
       fail_policy: fail
@@ -2134,7 +2134,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c4_r5.7-c3
       fail_policy: fail
@@ -2149,7 +2149,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c4_r5.7-c5
       fail_policy: fail
@@ -2205,7 +2205,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c5_r5.7-c4
       fail_policy: fail
@@ -2220,7 +2220,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-c5_r5.7-cy
       fail_policy: fail
@@ -2276,7 +2276,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-cy_r5.7-c5
       fail_policy: fail
@@ -2291,7 +2291,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-cy_r5.7-cz
       fail_policy: fail
@@ -2347,7 +2347,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.7-cz_r5.7-cy
       fail_policy: fail
@@ -2403,7 +2403,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-ca_r6.5-cb
       fail_policy: fail
@@ -2417,8 +2417,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-ca_WayPoint66
       fail_policy: fail
@@ -2433,7 +2433,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-ca_r7.5-ca
       fail_policy: fail
@@ -2448,7 +2448,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-ca_r5.7-ca
       fail_policy: fail
@@ -2504,7 +2504,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-cb_r6.5-ca
       fail_policy: fail
@@ -2519,7 +2519,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-cb_r6.5-c0
       fail_policy: fail
@@ -2575,7 +2575,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c0_r6.5-cb
       fail_policy: fail
@@ -2590,7 +2590,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c0_r6.5-c1
       fail_policy: fail
@@ -2646,7 +2646,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c1_r6.5-c0
       fail_policy: fail
@@ -2661,7 +2661,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c1_r6.5-c2
       fail_policy: fail
@@ -2717,7 +2717,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c2_r6.5-c1
       fail_policy: fail
@@ -2732,7 +2732,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c2_r6.5-c3
       fail_policy: fail
@@ -2788,7 +2788,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c3_r6.5-c2
       fail_policy: fail
@@ -2803,7 +2803,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c3_r6.5-c4
       fail_policy: fail
@@ -2859,7 +2859,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c4_r6.5-c3
       fail_policy: fail
@@ -2874,7 +2874,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c4_r6.5-c5
       fail_policy: fail
@@ -2930,7 +2930,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c5_r6.5-c4
       fail_policy: fail
@@ -2945,7 +2945,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-c5_r6.5-cy
       fail_policy: fail
@@ -3001,7 +3001,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-cy_r6.5-c5
       fail_policy: fail
@@ -3016,7 +3016,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-cy_r6.5-cz
       fail_policy: fail
@@ -3072,7 +3072,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6.5-cz_r6.5-cy
       fail_policy: fail
@@ -3128,7 +3128,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-ca_r7.5-cb
       fail_policy: fail
@@ -3142,8 +3142,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-ca_WayPoint56
       fail_policy: fail
@@ -3158,7 +3158,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-ca_r8.5-ca
       fail_policy: fail
@@ -3173,7 +3173,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-ca_r6.5-ca
       fail_policy: fail
@@ -3229,7 +3229,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-cb_r7.5-ca
       fail_policy: fail
@@ -3244,7 +3244,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-cb_r7.5-c0
       fail_policy: fail
@@ -3300,7 +3300,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c0_r7.5-cb
       fail_policy: fail
@@ -3315,7 +3315,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c0_r7.5-c1
       fail_policy: fail
@@ -3371,7 +3371,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c1_r7.5-c0
       fail_policy: fail
@@ -3386,7 +3386,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c1_r7.5-c2
       fail_policy: fail
@@ -3442,7 +3442,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c2_r7.5-c1
       fail_policy: fail
@@ -3457,7 +3457,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c2_r7.5-c3
       fail_policy: fail
@@ -3513,7 +3513,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c3_r7.5-c2
       fail_policy: fail
@@ -3528,7 +3528,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c3_r7.5-c4
       fail_policy: fail
@@ -3584,7 +3584,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c4_r7.5-c3
       fail_policy: fail
@@ -3599,7 +3599,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c4_r7.5-c5
       fail_policy: fail
@@ -3655,7 +3655,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c5_r7.5-c4
       fail_policy: fail
@@ -3670,7 +3670,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-c5_r7.5-cy
       fail_policy: fail
@@ -3726,7 +3726,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-cy_r7.5-c5
       fail_policy: fail
@@ -3741,7 +3741,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-cy_r7.5-cz
       fail_policy: fail
@@ -3797,7 +3797,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7.5-cz_r7.5-cy
       fail_policy: fail
@@ -3853,7 +3853,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-ca_r8.5-cb
       fail_policy: fail
@@ -3867,8 +3867,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-ca_WayPoint56
       fail_policy: fail
@@ -3883,7 +3883,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-ca_r9.5-ca
       fail_policy: fail
@@ -3898,7 +3898,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-ca_r7.5-ca
       fail_policy: fail
@@ -3954,7 +3954,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-cb_r8.5-ca
       fail_policy: fail
@@ -3969,7 +3969,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-cb_r8.5-c0
       fail_policy: fail
@@ -4025,7 +4025,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c0_r8.5-cb
       fail_policy: fail
@@ -4040,7 +4040,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c0_r8.5-c1
       fail_policy: fail
@@ -4096,7 +4096,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c1_r8.5-c0
       fail_policy: fail
@@ -4111,7 +4111,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c1_r8.5-c2
       fail_policy: fail
@@ -4167,7 +4167,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c2_r8.5-c1
       fail_policy: fail
@@ -4182,7 +4182,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c2_r8.5-c3
       fail_policy: fail
@@ -4238,7 +4238,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c3_r8.5-c2
       fail_policy: fail
@@ -4253,7 +4253,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c3_r8.5-c4
       fail_policy: fail
@@ -4309,7 +4309,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c4_r8.5-c3
       fail_policy: fail
@@ -4324,7 +4324,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c4_r8.5-c5
       fail_policy: fail
@@ -4380,7 +4380,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c5_r8.5-c4
       fail_policy: fail
@@ -4395,7 +4395,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-c5_r8.5-cy
       fail_policy: fail
@@ -4451,7 +4451,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-cy_r8.5-c5
       fail_policy: fail
@@ -4466,7 +4466,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-cy_r8.5-cz
       fail_policy: fail
@@ -4522,7 +4522,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8.5-cz_r8.5-cy
       fail_policy: fail
@@ -4578,7 +4578,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-ca_r9.5-cb
       fail_policy: fail
@@ -4592,8 +4592,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-ca_WayPoint63
       fail_policy: fail
@@ -4608,7 +4608,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-ca_r10.3-ca
       fail_policy: fail
@@ -4623,7 +4623,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-ca_r8.5-ca
       fail_policy: fail
@@ -4679,7 +4679,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-cb_r9.5-ca
       fail_policy: fail
@@ -4694,7 +4694,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-cb_r9.5-c0
       fail_policy: fail
@@ -4750,7 +4750,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c0_r9.5-cb
       fail_policy: fail
@@ -4765,7 +4765,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c0_r9.5-c1
       fail_policy: fail
@@ -4821,7 +4821,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c1_r9.5-c0
       fail_policy: fail
@@ -4836,7 +4836,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c1_r9.5-c2
       fail_policy: fail
@@ -4892,7 +4892,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c2_r9.5-c1
       fail_policy: fail
@@ -4907,7 +4907,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c2_r9.5-c3
       fail_policy: fail
@@ -4963,7 +4963,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c3_r9.5-c2
       fail_policy: fail
@@ -4978,7 +4978,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c3_r9.5-c4
       fail_policy: fail
@@ -5034,7 +5034,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c4_r9.5-c3
       fail_policy: fail
@@ -5049,7 +5049,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c4_r9.5-c5
       fail_policy: fail
@@ -5105,7 +5105,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c5_r9.5-c4
       fail_policy: fail
@@ -5120,7 +5120,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-c5_r9.5-cy
       fail_policy: fail
@@ -5176,7 +5176,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-cy_r9.5-c5
       fail_policy: fail
@@ -5191,7 +5191,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-cy_r9.5-cz
       fail_policy: fail
@@ -5247,7 +5247,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9.5-cz_r9.5-cy
       fail_policy: fail
@@ -5303,7 +5303,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-ca_r10.3-cb
       fail_policy: fail
@@ -5318,7 +5318,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-ca_r9.5-ca
       fail_policy: fail
@@ -5374,7 +5374,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-cb_r10.3-ca
       fail_policy: fail
@@ -5389,7 +5389,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-cb_r10.3-c0
       fail_policy: fail
@@ -5445,7 +5445,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c0_r10.3-cb
       fail_policy: fail
@@ -5460,7 +5460,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c0_r10.3-c1
       fail_policy: fail
@@ -5516,7 +5516,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c1_r10.3-c0
       fail_policy: fail
@@ -5531,7 +5531,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c1_r10.3-c2
       fail_policy: fail
@@ -5587,7 +5587,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c2_r10.3-c1
       fail_policy: fail
@@ -5602,7 +5602,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c2_r10.3-c3
       fail_policy: fail
@@ -5658,7 +5658,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c3_r10.3-c2
       fail_policy: fail
@@ -5673,7 +5673,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c3_r10.3-c4
       fail_policy: fail
@@ -5729,7 +5729,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c4_r10.3-c3
       fail_policy: fail
@@ -5744,7 +5744,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c4_r10.3-c5
       fail_policy: fail
@@ -5800,7 +5800,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c5_r10.3-c4
       fail_policy: fail
@@ -5815,7 +5815,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-c5_r10.3-cy
       fail_policy: fail
@@ -5871,7 +5871,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-cy_r10.3-c5
       fail_policy: fail
@@ -5886,7 +5886,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-cy_r10.3-cz
       fail_policy: fail
@@ -5942,7 +5942,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10.3-cz_r10.3-cy
       fail_policy: fail
@@ -5998,7 +5998,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-ca_r0.7-cb
       fail_policy: fail
@@ -6013,7 +6013,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-ca_r1.5-ca
       fail_policy: fail
@@ -6069,7 +6069,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-cb_r0.7-ca
       fail_policy: fail
@@ -6084,7 +6084,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-cb_r0.7-c0
       fail_policy: fail
@@ -6140,7 +6140,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c0_r0.7-cb
       fail_policy: fail
@@ -6155,7 +6155,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c0_r0.7-c1
       fail_policy: fail
@@ -6211,7 +6211,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c1_r0.7-c0
       fail_policy: fail
@@ -6226,7 +6226,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c1_r0.7-c2
       fail_policy: fail
@@ -6282,7 +6282,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c2_r0.7-c1
       fail_policy: fail
@@ -6297,7 +6297,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c2_r0.7-c3
       fail_policy: fail
@@ -6353,7 +6353,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c3_r0.7-c2
       fail_policy: fail
@@ -6368,7 +6368,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c3_r0.7-c4
       fail_policy: fail
@@ -6424,7 +6424,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c4_r0.7-c3
       fail_policy: fail
@@ -6439,7 +6439,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c4_r0.7-c5
       fail_policy: fail
@@ -6495,7 +6495,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c5_r0.7-c4
       fail_policy: fail
@@ -6510,7 +6510,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-c5_r0.7-cy
       fail_policy: fail
@@ -6566,7 +6566,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-cy_r0.7-c5
       fail_policy: fail
@@ -6581,7 +6581,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-cy_r0.7-cz
       fail_policy: fail
@@ -6637,7 +6637,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r0.7-cz_r0.7-cy
       fail_policy: fail
@@ -6693,7 +6693,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-ca_r1.5-cb
       fail_policy: fail
@@ -6707,8 +6707,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-ca_WayPoint67
       fail_policy: fail
@@ -6723,7 +6723,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-ca_r0.7-ca
       fail_policy: fail
@@ -6738,7 +6738,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-ca_r2.5-ca
       fail_policy: fail
@@ -6794,7 +6794,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-cb_r1.5-ca
       fail_policy: fail
@@ -6809,7 +6809,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-cb_r1.5-c0
       fail_policy: fail
@@ -6865,7 +6865,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c0_r1.5-cb
       fail_policy: fail
@@ -6880,7 +6880,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c0_r1.5-c1
       fail_policy: fail
@@ -6936,7 +6936,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c1_r1.5-c0
       fail_policy: fail
@@ -6951,7 +6951,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c1_r1.5-c2
       fail_policy: fail
@@ -7007,7 +7007,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c2_r1.5-c1
       fail_policy: fail
@@ -7022,7 +7022,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c2_r1.5-c3
       fail_policy: fail
@@ -7078,7 +7078,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c3_r1.5-c2
       fail_policy: fail
@@ -7093,7 +7093,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c3_r1.5-c4
       fail_policy: fail
@@ -7149,7 +7149,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c4_r1.5-c3
       fail_policy: fail
@@ -7164,7 +7164,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c4_r1.5-c5
       fail_policy: fail
@@ -7220,7 +7220,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c5_r1.5-c4
       fail_policy: fail
@@ -7235,7 +7235,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-c5_r1.5-cy
       fail_policy: fail
@@ -7291,7 +7291,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-cy_r1.5-c5
       fail_policy: fail
@@ -7306,7 +7306,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-cy_r1.5-cz
       fail_policy: fail
@@ -7362,7 +7362,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1.5-cz_r1.5-cy
       fail_policy: fail
@@ -7418,7 +7418,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-ca_r2.5-cb
       fail_policy: fail
@@ -7432,8 +7432,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-ca_WayPoint73
       fail_policy: fail
@@ -7448,7 +7448,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-ca_r3.5-ca
       fail_policy: fail
@@ -7463,7 +7463,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-ca_r1.5-ca
       fail_policy: fail
@@ -7519,7 +7519,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-cb_r2.5-ca
       fail_policy: fail
@@ -7534,7 +7534,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-cb_r2.5-c0
       fail_policy: fail
@@ -7590,7 +7590,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c0_r2.5-cb
       fail_policy: fail
@@ -7605,7 +7605,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c0_r2.5-c1
       fail_policy: fail
@@ -7661,7 +7661,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c1_r2.5-c0
       fail_policy: fail
@@ -7676,7 +7676,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c1_r2.5-c2
       fail_policy: fail
@@ -7732,7 +7732,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c2_r2.5-c1
       fail_policy: fail
@@ -7747,7 +7747,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c2_r2.5-c3
       fail_policy: fail
@@ -7803,7 +7803,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c3_r2.5-c2
       fail_policy: fail
@@ -7818,7 +7818,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c3_r2.5-c4
       fail_policy: fail
@@ -7874,7 +7874,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c4_r2.5-c3
       fail_policy: fail
@@ -7889,7 +7889,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c4_r2.5-c5
       fail_policy: fail
@@ -7945,7 +7945,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c5_r2.5-c4
       fail_policy: fail
@@ -7960,7 +7960,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-c5_r2.5-cy
       fail_policy: fail
@@ -8016,7 +8016,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-cy_r2.5-c5
       fail_policy: fail
@@ -8031,7 +8031,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-cy_r2.5-cz
       fail_policy: fail
@@ -8087,7 +8087,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2.5-cz_r2.5-cy
       fail_policy: fail
@@ -8143,7 +8143,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-ca_r3.5-cb
       fail_policy: fail
@@ -8157,8 +8157,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-ca_WayPoint73
       fail_policy: fail
@@ -8173,7 +8173,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-ca_r4.5-ca
       fail_policy: fail
@@ -8188,7 +8188,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-ca_r2.5-ca
       fail_policy: fail
@@ -8244,7 +8244,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-cb_r3.5-ca
       fail_policy: fail
@@ -8259,7 +8259,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-cb_r3.5-c0
       fail_policy: fail
@@ -8315,7 +8315,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c0_r3.5-cb
       fail_policy: fail
@@ -8330,7 +8330,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c0_r3.5-c1
       fail_policy: fail
@@ -8386,7 +8386,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c1_r3.5-c0
       fail_policy: fail
@@ -8401,7 +8401,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c1_r3.5-c2
       fail_policy: fail
@@ -8457,7 +8457,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c2_r3.5-c1
       fail_policy: fail
@@ -8472,7 +8472,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c2_r3.5-c3
       fail_policy: fail
@@ -8528,7 +8528,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c3_r3.5-c2
       fail_policy: fail
@@ -8543,7 +8543,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c3_r3.5-c4
       fail_policy: fail
@@ -8599,7 +8599,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c4_r3.5-c3
       fail_policy: fail
@@ -8614,7 +8614,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c4_r3.5-c5
       fail_policy: fail
@@ -8670,7 +8670,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c5_r3.5-c4
       fail_policy: fail
@@ -8685,7 +8685,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-c5_r3.5-cy
       fail_policy: fail
@@ -8741,7 +8741,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-cy_r3.5-c5
       fail_policy: fail
@@ -8756,7 +8756,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-cy_r3.5-cz
       fail_policy: fail
@@ -8812,7 +8812,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3.5-cz_r3.5-cy
       fail_policy: fail
@@ -8868,7 +8868,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-ca_r4.5-cb
       fail_policy: fail
@@ -8882,8 +8882,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-ca_WayPoint74
       fail_policy: fail
@@ -8898,7 +8898,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-ca_r5.3-ca
       fail_policy: fail
@@ -8913,7 +8913,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-ca_r3.5-ca
       fail_policy: fail
@@ -8969,7 +8969,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-cb_r4.5-ca
       fail_policy: fail
@@ -8984,7 +8984,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-cb_r4.5-c0
       fail_policy: fail
@@ -9040,7 +9040,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c0_r4.5-cb
       fail_policy: fail
@@ -9055,7 +9055,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c0_r4.5-c1
       fail_policy: fail
@@ -9111,7 +9111,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c1_r4.5-c0
       fail_policy: fail
@@ -9126,7 +9126,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c1_r4.5-c2
       fail_policy: fail
@@ -9182,7 +9182,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c2_r4.5-c1
       fail_policy: fail
@@ -9197,7 +9197,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c2_r4.5-c3
       fail_policy: fail
@@ -9253,7 +9253,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c3_r4.5-c2
       fail_policy: fail
@@ -9268,7 +9268,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c3_r4.5-c4
       fail_policy: fail
@@ -9324,7 +9324,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c4_r4.5-c3
       fail_policy: fail
@@ -9339,7 +9339,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c4_r4.5-c5
       fail_policy: fail
@@ -9395,7 +9395,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c5_r4.5-c4
       fail_policy: fail
@@ -9410,7 +9410,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-c5_r4.5-cy
       fail_policy: fail
@@ -9466,7 +9466,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-cy_r4.5-c5
       fail_policy: fail
@@ -9481,7 +9481,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-cy_r4.5-cz
       fail_policy: fail
@@ -9537,7 +9537,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4.5-cz_r4.5-cy
       fail_policy: fail
@@ -9593,7 +9593,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-ca_r5.3-cb
       fail_policy: fail
@@ -9608,7 +9608,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-ca_r4.5-ca
       fail_policy: fail
@@ -9664,7 +9664,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-cb_r5.3-ca
       fail_policy: fail
@@ -9679,7 +9679,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-cb_r5.3-c0
       fail_policy: fail
@@ -9735,7 +9735,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c0_r5.3-cb
       fail_policy: fail
@@ -9750,7 +9750,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c0_r5.3-c1
       fail_policy: fail
@@ -9806,7 +9806,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c1_r5.3-c0
       fail_policy: fail
@@ -9821,7 +9821,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c1_r5.3-c2
       fail_policy: fail
@@ -9877,7 +9877,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c2_r5.3-c1
       fail_policy: fail
@@ -9892,7 +9892,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c2_r5.3-c3
       fail_policy: fail
@@ -9948,7 +9948,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c3_r5.3-c2
       fail_policy: fail
@@ -9963,7 +9963,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c3_r5.3-c4
       fail_policy: fail
@@ -10019,7 +10019,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c4_r5.3-c3
       fail_policy: fail
@@ -10034,7 +10034,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c4_r5.3-c5
       fail_policy: fail
@@ -10090,7 +10090,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c5_r5.3-c4
       fail_policy: fail
@@ -10105,7 +10105,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-c5_r5.3-cy
       fail_policy: fail
@@ -10161,7 +10161,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-cy_r5.3-c5
       fail_policy: fail
@@ -10176,7 +10176,7 @@ nodes:
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-cy_r5.3-cz
       fail_policy: fail
@@ -10232,7 +10232,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5.3-cz_r5.3-cy
       fail_policy: fail
@@ -10287,8 +10287,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-ca_WayPoint67
       fail_policy: fail
@@ -10303,7 +10303,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-ca_r1-cb
       fail_policy: fail
@@ -10318,7 +10318,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-ca_r2-ca
       fail_policy: fail
@@ -10374,7 +10374,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-c0_r1-cb
       fail_policy: fail
@@ -10389,7 +10389,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-c0_r1-cy
       fail_policy: fail
@@ -10445,7 +10445,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-cz_r2-cz
       fail_policy: fail
@@ -10460,7 +10460,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-cz_r1-cy
       fail_policy: fail
@@ -10516,7 +10516,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-ca_r3-ca
       fail_policy: fail
@@ -10530,8 +10530,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-ca_WayPoint73
       fail_policy: fail
@@ -10545,8 +10545,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-ca_WayPoint67
       fail_policy: fail
@@ -10561,7 +10561,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-ca_r2-cb
       fail_policy: fail
@@ -10576,7 +10576,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-ca_r1-ca
       fail_policy: fail
@@ -10632,7 +10632,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-c0_r2-cb
       fail_policy: fail
@@ -10647,7 +10647,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-c0_r2-cy
       fail_policy: fail
@@ -10703,7 +10703,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-cz_r1-cz
       fail_policy: fail
@@ -10718,7 +10718,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-cz_r3-cz
       fail_policy: fail
@@ -10733,7 +10733,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-cz_r2-cy
       fail_policy: fail
@@ -10789,7 +10789,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-ca_r4-ca
       fail_policy: fail
@@ -10804,7 +10804,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-ca_r2-ca
       fail_policy: fail
@@ -10818,8 +10818,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-ca_WayPoint73
       fail_policy: fail
@@ -10834,7 +10834,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-ca_r3-cb
       fail_policy: fail
@@ -10890,7 +10890,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-c0_r3-cy
       fail_policy: fail
@@ -10905,7 +10905,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-c0_r3-cb
       fail_policy: fail
@@ -10961,7 +10961,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-cz_r2-cz
       fail_policy: fail
@@ -10976,7 +10976,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-cz_r4-cz
       fail_policy: fail
@@ -10991,7 +10991,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-cz_r3-cy
       fail_policy: fail
@@ -11047,7 +11047,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-ca_r5-ca
       fail_policy: fail
@@ -11062,7 +11062,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-ca_r3-ca
       fail_policy: fail
@@ -11076,8 +11076,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-ca_WayPoint74
       fail_policy: fail
@@ -11091,8 +11091,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-ca_WayPoint73
       fail_policy: fail
@@ -11107,7 +11107,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-ca_r4-cb
       fail_policy: fail
@@ -11163,7 +11163,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-c0_r4-cy
       fail_policy: fail
@@ -11178,7 +11178,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-c0_r4-cb
       fail_policy: fail
@@ -11234,7 +11234,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-cz_r3-cz
       fail_policy: fail
@@ -11249,7 +11249,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-cz_r5-cz
       fail_policy: fail
@@ -11264,7 +11264,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-cz_r4-cy
       fail_policy: fail
@@ -11320,7 +11320,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-ca_r4-ca
       fail_policy: fail
@@ -11334,8 +11334,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-ca_WayPoint74
       fail_policy: fail
@@ -11350,7 +11350,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-ca_r5-cb
       fail_policy: fail
@@ -11406,7 +11406,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-c0_r5-cy
       fail_policy: fail
@@ -11421,7 +11421,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-c0_r5-cb
       fail_policy: fail
@@ -11477,7 +11477,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-cz_r4-cz
       fail_policy: fail
@@ -11492,7 +11492,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-cz_r5-cy
       fail_policy: fail
@@ -11548,7 +11548,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-ca_r7-ca
       fail_policy: fail
@@ -11562,8 +11562,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-ca_WayPoint66
       fail_policy: fail
@@ -11578,7 +11578,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-ca_r6-cb
       fail_policy: fail
@@ -11634,7 +11634,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-c0_r6-cy
       fail_policy: fail
@@ -11649,7 +11649,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-c0_r6-cb
       fail_policy: fail
@@ -11705,7 +11705,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-cz_r7-cz
       fail_policy: fail
@@ -11720,7 +11720,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-cz_r6-cy
       fail_policy: fail
@@ -11776,7 +11776,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-ca_r8-ca
       fail_policy: fail
@@ -11791,7 +11791,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-ca_r6-ca
       fail_policy: fail
@@ -11805,8 +11805,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-ca_WayPoint56
       fail_policy: fail
@@ -11820,8 +11820,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-ca_WayPoint66
       fail_policy: fail
@@ -11836,7 +11836,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-ca_r7-cb
       fail_policy: fail
@@ -11892,7 +11892,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-c0_r7-cy
       fail_policy: fail
@@ -11907,7 +11907,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-c0_r7-cb
       fail_policy: fail
@@ -11963,7 +11963,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-cz_r8-cz
       fail_policy: fail
@@ -11978,7 +11978,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-cz_r6-cz
       fail_policy: fail
@@ -11993,7 +11993,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-cz_r7-cy
       fail_policy: fail
@@ -12049,7 +12049,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-ca_r9-ca
       fail_policy: fail
@@ -12064,7 +12064,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-ca_r7-ca
       fail_policy: fail
@@ -12078,8 +12078,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-ca_WayPoint56
       fail_policy: fail
@@ -12094,7 +12094,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-ca_r8-cb
       fail_policy: fail
@@ -12150,7 +12150,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-c0_r8-cy
       fail_policy: fail
@@ -12165,7 +12165,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-c0_r8-cb
       fail_policy: fail
@@ -12221,7 +12221,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-cz_r9-cz
       fail_policy: fail
@@ -12236,7 +12236,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-cz_r7-cz
       fail_policy: fail
@@ -12251,7 +12251,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-cz_r8-cy
       fail_policy: fail
@@ -12307,7 +12307,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-ca_r10-ca
       fail_policy: fail
@@ -12322,7 +12322,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-ca_r8-ca
       fail_policy: fail
@@ -12336,8 +12336,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-ca_WayPoint63
       fail_policy: fail
@@ -12351,8 +12351,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-ca_WayPoint56
       fail_policy: fail
@@ -12367,7 +12367,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-ca_r9-cb
       fail_policy: fail
@@ -12423,7 +12423,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-c0_r9-cy
       fail_policy: fail
@@ -12438,7 +12438,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-c0_r9-cb
       fail_policy: fail
@@ -12494,7 +12494,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-cz_r10-cz
       fail_policy: fail
@@ -12509,7 +12509,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-cz_r8-cz
       fail_policy: fail
@@ -12524,7 +12524,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-cz_r9-cy
       fail_policy: fail
@@ -12580,7 +12580,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-ca_r9-ca
       fail_policy: fail
@@ -12594,8 +12594,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-ca_WayPoint63
       fail_policy: fail
@@ -12610,7 +12610,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-ca_r10-cb
       fail_policy: fail
@@ -12666,7 +12666,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-c0_r10-cy
       fail_policy: fail
@@ -12681,7 +12681,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-c0_r10-cb
       fail_policy: fail
@@ -12737,7 +12737,7 @@ nodes:
   node:
     edges:
     - action: row_change
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-cz_r9-cz
       fail_policy: fail
@@ -12752,7 +12752,7 @@ nodes:
       restrictions_planning: robot_tall
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-cz_r10-cy
       fail_policy: fail
@@ -12808,7 +12808,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-cb_r1-c0
       fail_policy: fail
@@ -12823,7 +12823,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-cb_r1-ca
       fail_policy: fail
@@ -12879,7 +12879,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-cy_r1-c0
       fail_policy: fail
@@ -12894,7 +12894,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r1-cy_r1-cz
       fail_policy: fail
@@ -12950,7 +12950,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-cb_r2-ca
       fail_policy: fail
@@ -12965,7 +12965,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-cb_r2-c0
       fail_policy: fail
@@ -13021,7 +13021,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-cy_r2-c0
       fail_policy: fail
@@ -13036,7 +13036,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r2-cy_r2-cz
       fail_policy: fail
@@ -13092,7 +13092,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-cy_r3-c0
       fail_policy: fail
@@ -13107,7 +13107,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-cy_r3-cz
       fail_policy: fail
@@ -13163,7 +13163,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-cy_r4-cz
       fail_policy: fail
@@ -13178,7 +13178,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-cy_r4-c0
       fail_policy: fail
@@ -13234,7 +13234,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-cy_r5-cz
       fail_policy: fail
@@ -13249,7 +13249,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-cy_r5-c0
       fail_policy: fail
@@ -13305,7 +13305,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-cb_r3-c0
       fail_policy: fail
@@ -13320,7 +13320,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r3-cb_r3-ca
       fail_policy: fail
@@ -13376,7 +13376,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-cb_r4-c0
       fail_policy: fail
@@ -13391,7 +13391,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r4-cb_r4-ca
       fail_policy: fail
@@ -13447,7 +13447,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-cb_r5-c0
       fail_policy: fail
@@ -13462,7 +13462,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r5-cb_r5-ca
       fail_policy: fail
@@ -13518,7 +13518,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-cy_r6-c0
       fail_policy: fail
@@ -13533,7 +13533,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-cy_r6-cz
       fail_policy: fail
@@ -13589,7 +13589,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-cy_r7-cz
       fail_policy: fail
@@ -13604,7 +13604,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-cy_r7-c0
       fail_policy: fail
@@ -13660,7 +13660,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-cy_r8-cz
       fail_policy: fail
@@ -13675,7 +13675,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-cy_r8-c0
       fail_policy: fail
@@ -13731,7 +13731,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-cy_r9-cz
       fail_policy: fail
@@ -13746,7 +13746,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-cy_r9-c0
       fail_policy: fail
@@ -13802,7 +13802,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-cy_r10-cz
       fail_policy: fail
@@ -13817,7 +13817,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-cy_r10-c0
       fail_policy: fail
@@ -13873,7 +13873,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-cb_r6-c0
       fail_policy: fail
@@ -13888,7 +13888,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r6-cb_r6-ca
       fail_policy: fail
@@ -13944,7 +13944,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-cb_r7-c0
       fail_policy: fail
@@ -13959,7 +13959,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r7-cb_r7-ca
       fail_policy: fail
@@ -14015,7 +14015,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-cb_r8-ca
       fail_policy: fail
@@ -14030,7 +14030,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r8-cb_r8-c0
       fail_policy: fail
@@ -14086,7 +14086,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-cb_r9-c0
       fail_policy: fail
@@ -14101,7 +14101,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r9-cb_r9-ca
       fail_policy: fail
@@ -14157,7 +14157,7 @@ nodes:
   node:
     edges:
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-cb_r10-c0
       fail_policy: fail
@@ -14172,7 +14172,7 @@ nodes:
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
     - action: row_traversal
-      action_type: move_base_msgs/MoveBaseGoal
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: r10-cb_r10-ca
       fail_policy: fail
@@ -14227,8 +14227,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint144_WayPoint141
       fail_policy: fail
@@ -14242,8 +14242,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint144_WayPoint143
       fail_policy: fail
@@ -14257,8 +14257,8 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: WayPoint144_WayPoint67
       fail_policy: fail
@@ -14313,8 +14313,8 @@ nodes:
     pointset: riseholme_restrict
   node:
     edges:
-    - action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
       config: []
       edge_id: s0_WayPoint72
       fail_policy: fail
