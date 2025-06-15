@@ -23,7 +23,7 @@
 #% DESCRIPTION
 #%    Section to define the origin of the maps if one exists
 #================================================================
-export ENVIRONMENT_ORIGINS=''
+export ENVIRONMENT_ORIGINS='RASberry.git'
 
 
 #================================================================
