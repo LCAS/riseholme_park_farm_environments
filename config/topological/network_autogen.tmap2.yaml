@@ -1,0 +1,4630 @@
+meta:
+  last_updated: 0
+metric_map: north_roadway
+name: north_roadway
+nodes:
+- meta:
+    map: north_roadway
+    node: WayPoint1
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint1_WayPoint2
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint2
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint1
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -102.08
+        y: -41.56
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: &id001
+    - x: 0.128
+      y: -0.214
+    - x: 0.175
+      y: -0.071
+    - x: 0.148
+      y: 0.118
+    - x: 0.061
+      y: 0.241
+    - x: -0.128
+      y: 0.214
+    - x: -0.175
+      y: 0.071
+    - x: -0.148
+      y: -0.118
+    - x: -0.061
+      y: -0.241
+- meta:
+    map: north_roadway
+    node: WayPoint2
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint2_WayPoint3
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint3
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint2_WayPoint4
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint4
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint2_WayPoint1
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint1
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint2
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -95.3
+        y: -35.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint3
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint3_WayPoint2
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint2
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint3
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -91.98
+        y: -42.9
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint4
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint4_WayPoint38
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint38
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint4_WayPoint5
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint5
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint4_WayPoint2
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint2
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint4
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -103.94
+        y: -26.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint5
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint5_WayPoint6
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint6
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint5_WayPoint4
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint4
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint5_WayPoint37
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint37
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint5
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -120.29
+        y: -19.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint6
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint6_WayPoint5
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint5
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint6_WayPoint7
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint7
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint6
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -131.12
+        y: -15.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint7
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint7_WayPoint8
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint8
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint7_WayPoint6
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint6
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint7
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -137.83
+        y: -8.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint8
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint8_WayPoint9
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint9
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint8_WayPoint7
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint7
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint8
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -139.76
+        y: -4.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint9
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint9_WayPoint8
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint8
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint9_WayPoint34
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint34
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint9_WayPoint32
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint32
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint9_WayPoint10
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint10
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint9
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -147.13
+        y: -6.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint10
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint10_WayPoint9
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint9
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint10_WayPoint11
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint11
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint10
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -152.78
+        y: 8.99
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint11
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint11_WayPoint20
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint20
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint11_WayPoint12
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint12
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint11_WayPoint10
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint10
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint11
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -171.26
+        y: 4.77
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint12
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint12_WayPoint13
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint13
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint12_WayPoint18
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint18
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint12_WayPoint11
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint11
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint12
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -175.97
+        y: 4.88
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint13
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint13_WayPoint12
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint12
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint13_WayPoint14
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint14
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint13
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -178.83
+        y: 7.55
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint14
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint14_WayPoint13
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint13
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint14_WayPoint15
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint15
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint14
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -199.17
+        y: 2.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint15
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint15_WayPoint14
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint14
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint15_WayPoint17
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint17
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint15_WayPoint16
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint16
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint15
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -204.88
+        y: 1.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint16
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint16_WayPoint15
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint15
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint16
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -206.48
+        y: 6.32
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint17
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint17_WayPoint15
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint15
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint17
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -209.47
+        y: -0.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint18
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint18_WayPoint19
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint19
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint18_WayPoint12
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint12
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint18_WayPoint20
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint20
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint18
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -174.98
+        y: 2.32
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint19
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint19_WayPoint18
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint18
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint19
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -177.37
+        y: 1.77
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint20
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint20_WayPoint18
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint18
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint20_WayPoint11
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint11
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint20_WayPoint21
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint21
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint20
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -170.86
+        y: 3.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint21
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint21_WayPoint20
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint20
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint21_WayPoint24
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint24
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint21_WayPoint22
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint22
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint21
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -168.07
+        y: -7.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint22
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint22_WayPoint29
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint29
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint22_WayPoint23
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint23
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint22_WayPoint21
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint21
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint22
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -165.01
+        y: -17.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint23
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint23_WayPoint22
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint22
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint23
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -162.09
+        y: -17.01
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint24
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint24_WayPoint25
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint25
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint24_WayPoint21
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint21
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint24
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -171.85
+        y: -8.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint25
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint25_WayPoint24
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint24
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint25_WayPoint26
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint26
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint25_WayPoint29
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint29
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint25
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -179.1
+        y: -14.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint26
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint26_WayPoint30
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint30
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint26_WayPoint29
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint29
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint26_WayPoint25
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint25
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint26_WayPoint27
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint27
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint26
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -184.94
+        y: -20.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint27
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint27_WayPoint26
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint26
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint27_WayPoint28
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint28
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint27
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -237.24
+        y: -33.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint28
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint28_WayPoint27
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint27
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint28
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -246.55
+        y: -7.23
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint29
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint29_WayPoint26
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint26
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint29_WayPoint30
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint30
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint29_WayPoint25
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint25
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint29_WayPoint22
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint22
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint29
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -174.38
+        y: -18.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint30
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint30_WayPoint26
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint26
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint30_WayPoint31
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint31
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint30_WayPoint29
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint29
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint30
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -177.1
+        y: -21.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint31
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint31_WayPoint30
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint30
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint31
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -175.18
+        y: -24.23
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint32
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint32_WayPoint9
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint9
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint32_WayPoint33
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint33
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint32
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -148.4
+        y: -6.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint33
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint33_WayPoint32
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint32
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint33
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -145.07
+        y: -17.79
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint34
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint34_WayPoint35
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint35
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint34_WayPoint9
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint9
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint34
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -144.94
+        y: -8.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint35
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint35_WayPoint34
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint34
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint35_WayPoint36
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint36
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint35
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -138.76
+        y: -27.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint36
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint36_WayPoint35
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint35
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint36_WayPoint37
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint37
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint36
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -132.65
+        y: -27.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint37
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint37_WayPoint5
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint5
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint37_WayPoint36
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint36
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint37
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -126.47
+        y: -23.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint38
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint38_WayPoint39
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint39
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint38_WayPoint4
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint4
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint38
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -101.68
+        y: -20.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint39
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint39_WayPoint38
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint38
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint39_WayPoint40
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint40
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint39
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -98.82
+        y: -15.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint40
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint40_WayPoint41
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint41
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint40_WayPoint39
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint39
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint40
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -96.3
+        y: -12.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint41
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint41_WayPoint40
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint40
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint41_WayPoint42
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint42
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint41
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -93.04
+        y: -10.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint42
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint42_WayPoint41
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint41
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint42_WayPoint43
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint43
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint42
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -87.73
+        y: -10.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint43
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint43_WayPoint44
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint44
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint43_WayPoint42
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint42
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint43
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -80.75
+        y: -10.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint44
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint44_WayPoint45
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint45
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint44_WayPoint43
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint43
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint44_WayPoint73
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint73
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint44
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -78.02
+        y: -12.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint45
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint45_WayPoint44
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint44
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint45_WayPoint46
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint46
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint45_WayPoint73
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint73
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint45
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -74.24
+        y: -16.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint46
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint46_WayPoint47
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint47
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint46_WayPoint45
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint45
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint46
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -72.04
+        y: -18.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint47
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint47_WayPoint48
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint48
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint47_WayPoint46
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint46
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint47
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -55.9
+        y: -30.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint48
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint48_WayPoint49
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint49
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint48_WayPoint47
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint47
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint48_WayPoint66
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint66
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint48
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -52.37
+        y: -31.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint49
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint49_WayPoint48
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint48
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint49_WayPoint50
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint50
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint49
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -51.98
+        y: -36.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint50
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint50_WayPoint49
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint49
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint50_WayPoint59
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint59
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint50_WayPoint51
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint51
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint50
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -50.51
+        y: -45.12
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint51
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint51_WayPoint52
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint52
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint51_WayPoint64
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint64
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint51_WayPoint50
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint50
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint51
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -48.45
+        y: -44.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint52
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint52_WayPoint55
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint55
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint52_WayPoint53
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint53
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint52_WayPoint51
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint51
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint52
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -23.27
+        y: -41.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint53
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint53_WayPoint52
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint52
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint53_WayPoint54
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint54
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint53
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -24.6
+        y: -33.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint54
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint54_WayPoint55
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint55
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint54_WayPoint53
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint53
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint54
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -14.83
+        y: -32.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint55
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint55_WayPoint52
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint52
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint55_WayPoint54
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint54
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint55_WayPoint56
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint56
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint55
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -13.3
+        y: -40.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint56
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint56_WayPoint57
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint57
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint56_WayPoint55
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint55
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint56_WayPoint58
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint58
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint56
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -12.37
+        y: -45.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint57
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint57_WayPoint56
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint56
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint57
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -11.9
+        y: -49.01
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint58
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint58_WayPoint56
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint56
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint58
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -11.24
+        y: -45.56
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint59
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint59_WayPoint60
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint60
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint59_WayPoint50
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint50
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint59
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -51.98
+        y: -48.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint60
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint60_WayPoint62
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint62
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint60_WayPoint59
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint59
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint60_WayPoint61
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint61
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint60
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -49.98
+        y: -69.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint61
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint61_WayPoint60
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint60
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint61
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -49.78
+        y: -70.45
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint62
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint62_WayPoint60
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint60
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint62_WayPoint64
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint64
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint62_WayPoint63
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint63
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint62
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -45.0
+        y: -68.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint63
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint63_WayPoint62
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint62
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint63
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -43.27
+        y: -68.01
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint64
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint64_WayPoint62
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint62
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint64_WayPoint51
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint51
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint64_WayPoint65
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint65
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint64
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -46.46
+        y: -59.12
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint65
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint65_WayPoint64
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint64
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint65
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -44.67
+        y: -58.79
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint66
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint66_WayPoint48
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint48
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint66_WayPoint67
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint67
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint66
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -51.31
+        y: -27.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint67
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint67_WayPoint68
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint68
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint67_WayPoint66
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint66
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint67
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -45.26
+        y: -24.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint68
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint68_WayPoint67
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint67
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint68_WayPoint69
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint69
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint68
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -39.02
+        y: -23.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint69
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint69_WayPoint70
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint70
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint69_WayPoint68
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint68
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint69
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -32.84
+        y: -22.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint70
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint70_WayPoint71
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint71
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint70_WayPoint74
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint74
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint70_WayPoint69
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint69
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint70
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -29.38
+        y: -21.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint71
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint71_WayPoint72
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint72
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint71_WayPoint70
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint70
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint71
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -33.44
+        y: -13.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint72
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint72_WayPoint71
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint71
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint72
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -37.29
+        y: -9.34
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint73
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint73_WayPoint44
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint44
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint73_WayPoint45
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint45
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint73
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -74.7
+        y: -12.12
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint74
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint74_WayPoint70
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint70
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint74_WayPoint77
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint77
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint74_WayPoint76
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint76
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint74_WayPoint75
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint75
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint74
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -1.27
+        y: -17.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint75
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint75_WayPoint74
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint74
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint75_WayPoint76
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint76
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint75
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -2.0
+        y: -12.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint76
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint76_WayPoint78
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint78
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint76_WayPoint77
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint77
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint76_WayPoint74
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint74
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint76_WayPoint75
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint75
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint76
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 22.25
+        y: -8.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint77
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint77_WayPoint74
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint74
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint77_WayPoint76
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint76
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint77
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 23.12
+        y: -13.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+- meta:
+    map: north_roadway
+    node: WayPoint78
+    pointset: north_roadway
+  node:
+    edges:
+    - action: move_base
+      action_type: move_base_msgs/MoveBaseGoal
+      config: []
+      edge_id: WayPoint78_WayPoint76
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint76
+      recovery_behaviours_config: ''
+      restrictions_planning: robot
+      restrictions_runtime: obstacleFree_1
+    localise_by_topic: ''
+    name: WayPoint78
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 26.3
+        y: -1.34
+        z: 0.0
+    properties:
+      boundarys: true
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: robot
+    restrictions_runtime: obstacleFree_1
+    verts: *id001
+pointset: north_roadway
+transformation:
+  child: topo_map
+  parent: map
+  rotation:
+    w: 1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  translation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+verts:
+  verts:
+  - verts:
+    - x: -0.13
+      y: 0.213
+    - x: -0.242
+      y: 0.059
+    - x: -0.213
+      y: -0.13
+    - x: -0.059
+      y: -0.242
+    - x: 0.13
+      y: -0.213
+    - x: 0.242
+      y: -0.059
+    - x: 0.213
+      y: 0.13
+    - x: 0.059
+      y: 0.242
+  - verts: *id001
