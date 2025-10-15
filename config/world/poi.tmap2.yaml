@@ -1,0 +1,2755 @@
+
+verts:
+  verts:
+  - verts: &vert0
+    - x: -0.13
+      y:  0.213
+    - x: -0.242
+      y:  0.059
+    - x: -0.213
+      y: -0.13
+    - x: -0.059
+      y: -0.242
+    - x:  0.13
+      y: -0.213
+    - x:  0.242
+      y: -0.059
+    - x:  0.213
+      y:  0.13
+    - x:  0.059
+      y:  0.242
+  - verts: &vert1
+    - x:  0.320
+      y: -0.535
+    - x:  0.4375
+      y: -0.1775
+    - x:  0.370
+      y:  0.295
+    - x:  0.1525
+      y:  0.6025
+    - x: -0.320
+      y:  0.535
+    - x: -0.4375
+      y:  0.1775
+    - x: -0.370
+      y: -0.295
+    - x: -0.1525
+      y: -0.6025
+meta:
+  last_updated: 0
+metric_map: riseholme
+name: riseholme
+pointset: riseholme
+transformation:
+  child: topo_map
+  parent: map
+  rotation:
+    w: 1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  translation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+nodes:
+- meta:
+    map: riseholme
+    node: WayPoint1
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint1
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 8.76
+        y: 9.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint2
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint2
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 8.96
+        y: 7.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint3
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint3
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 9.16
+        y: 6.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint4
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint4
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 9.36
+        y: 4.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint5
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint5
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 9.56
+        y: 3.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint6
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint6
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 9.76
+        y: 2.12
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint7
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint7
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 10.03
+        y: 0.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint8
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint8
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 10.22
+        y: -0.66
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint9
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint9
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 10.42
+        y: -2.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint10
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint10
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 10.62
+        y: -3.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint11
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint11
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 10.82
+        y: -4.88
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint12
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint12
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 11.02
+        y: -6.21
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint13
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint13
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 6.3
+        y: 8.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint14
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint14
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 6.5
+        y: 7.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint15
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint15
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 6.7
+        y: 5.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint16
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint16
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 6.9
+        y: 4.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint17
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint17
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 7.1
+        y: 3.12
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint18
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint18
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 7.3
+        y: 1.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint19
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint19
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 7.5
+        y: 0.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint20
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint20
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 7.7
+        y: -0.99
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint21
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint21
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 7.9
+        y: -2.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint22
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint22
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 8.1
+        y: -3.77
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint23
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint23
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 8.3
+        y: -5.21
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint24
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint24
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 8.5
+        y: -6.55
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint25
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint25
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 3.78
+        y: 8.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint26
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint26
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 3.98
+        y: 7.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint27
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint27
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 4.18
+        y: 5.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint28
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint28
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 4.38
+        y: 4.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint29
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint29
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 4.58
+        y: 2.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint30
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint30
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 4.78
+        y: 1.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint31
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint31
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 5.04
+        y: 0.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint32
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint32
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 5.24
+        y: -1.32
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint33
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint33
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 5.44
+        y: -2.77
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint34
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint34
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 5.64
+        y: -4.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint35
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint35
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 5.84
+        y: -5.55
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint36
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint36
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 6.04
+        y: -6.88
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint37
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint37
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.32
+        y: 8.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint38
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint38
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.52
+        y: 6.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint39
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint39
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.72
+        y: 5.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint40
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint40
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.92
+        y: 3.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint41
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint41
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 2.12
+        y: 2.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint42
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint42
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 2.32
+        y: 1.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint43
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint43
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 2.58
+        y: -0.32
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint44
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint44
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 2.78
+        y: -1.66
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint45
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint45
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 2.98
+        y: -3.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint46
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint46
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 3.18
+        y: -4.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint47
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint47
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 3.38
+        y: -5.88
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint48
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint48
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 3.58
+        y: -7.21
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint49
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint49
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -1.14
+        y: 7.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint50
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint50
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -0.94
+        y: 6.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint51
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint51
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -0.74
+        y: 4.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint52
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint52
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -0.54
+        y: 3.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint53
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint53
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -0.34
+        y: 2.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint54
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint54
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -0.14
+        y: 0.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint55
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint55
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 0.12
+        y: -0.66
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint56
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint56
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 0.32
+        y: -2.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint57
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint57
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 0.52
+        y: -3.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint58
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint58
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 0.72
+        y: -4.88
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint59
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint59
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 0.92
+        y: -6.21
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint60
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint60
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.12
+        y: -7.66
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint61
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint61
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -3.6
+        y: 7.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint62
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint62
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -3.4
+        y: 5.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint63
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint63
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -3.2
+        y: 4.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint64
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint64
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -3.0
+        y: 3.12
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint65
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint65
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -2.8
+        y: 1.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint66
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint66
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -2.6
+        y: 0.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint67
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint67
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -2.33
+        y: -1.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint68
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint68
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -2.14
+        y: -2.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint69
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint69
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -1.94
+        y: -3.88
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint70
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint70
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -1.74
+        y: -5.21
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint71
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint71
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -1.54
+        y: -6.66
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint72
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint72
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -1.34
+        y: -7.99
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint73
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint73
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -6.06
+        y: 6.9
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint74
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint74
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -5.86
+        y: 5.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint75
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint75
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -5.66
+        y: 4.12
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint76
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint76
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -5.46
+        y: 2.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint77
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint77
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -5.26
+        y: 1.34
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint78
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint78
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -5.06
+        y: 0.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint79
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint79
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -4.79
+        y: -1.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint80
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint80
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -4.59
+        y: -2.77
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint81
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint81
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -4.39
+        y: -4.21
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint82
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint82
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -4.2
+        y: -5.55
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint83
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint83
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -4.0
+        y: -6.99
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint84
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint84
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -3.8
+        y: -8.32
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint85
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint85
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -8.51
+        y: 6.56
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint86
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint86
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -8.32
+        y: 5.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint87
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint87
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -8.12
+        y: 3.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint88
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint88
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -7.92
+        y: 2.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint89
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint89
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -7.72
+        y: 1.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint90
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint90
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -7.52
+        y: -0.32
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint91
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint91
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -7.25
+        y: -1.77
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint92
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint92
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -7.05
+        y: -3.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint93
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint93
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -6.85
+        y: -4.55
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint94
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint94
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -6.65
+        y: -5.88
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint95
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint95
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -6.45
+        y: -7.32
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint96
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint96
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -6.26
+        y: -8.66
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint97
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint97
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -10.97
+        y: 6.23
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint98
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint98
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -10.77
+        y: 4.79
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint99
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint99
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -10.57
+        y: 3.45
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint100
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint100
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -10.38
+        y: 2.01
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint101
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint101
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -10.18
+        y: 0.68
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint102
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint102
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -9.98
+        y: -0.77
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint103
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint103
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -9.78
+        y: -2.1
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint104
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint104
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -9.58
+        y: -3.44
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint105
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint105
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -9.38
+        y: -4.88
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint106
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint106
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -9.18
+        y: -6.21
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint107
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint107
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -8.98
+        y: -7.66
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
+- meta:
+    map: riseholme
+    node: WayPoint108
+    pointset: riseholme
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint108
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -8.71
+        y: -8.99
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert1
+    edges: []
