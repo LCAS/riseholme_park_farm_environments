@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>village_metric</name>
+    <GroundOverlay id="0">
+        <name>auto_raw</name>
+		<visibility>1</visibility>
+        <color>bbffffff</color>
+        <Icon>
+            <href>https://raw.githubusercontent.com/LCAS/environment_template/riseholme_bulluck_close/config/metric/map/map.png</href>
+        </Icon>
+        <LatLonBox>
+          <north>53.267533903895945</north>
+          <south>53.264802214517964</south>
+          <west>-0.5318184856513233</west>
+          <east>-0.5248493615337596</east>
+          <rotation>0.0</rotation>
+        </LatLonBox>
+    </GroundOverlay>
+</Document>
+</kml>
