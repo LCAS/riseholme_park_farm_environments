@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>riseholme_polytunnel_kml_autogen</name>
+    <gx:CascadingStyle kml:id="__managed_style_a">
+        <Style>
+            <LineStyle>
+                <color>ff2f2fd3</color>
+                <width>4</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>c02f2fd3</color>
+            </PolyStyle>
+        </Style>
+    </gx:CascadingStyle>
+    <StyleMap id="__managed_style_a_map">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#__managed_style_a</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#__managed_style_a</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Placemark id="datum_fence_placemark">
+        <name>riseholme_polytunnel</name>
+        <description><![CDATA[<div>riseholme_polytunnel</div>]]></description>
+        <LookAt>
+            <longitude>-0.5259216167186731</longitude>
+            <latitude>53.26795723293269</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <gx:fovy>35</gx:fovy>
+            <range>100</range>
+            <altitudeMode>absolute</altitudeMode>
+        </LookAt>
+        <styleUrl>#__managed_style_a</styleUrl>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -0.5259216167186731,53.26795723293269,0 -0.5260148880049675,53.26835220144588,0 -0.5267018628341902,53.2682883963882,0 -0.5266879654944412,53.26823030243403,0 -0.5266772589258695,53.26818066202519,0 -0.526660007983375,53.26809157610606,0 -0.526798598277366,53.2680808601153,0 -0.5267517014661016,53.26788476227937,0 -0.5259216167186731,53.26795723293269,0
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
