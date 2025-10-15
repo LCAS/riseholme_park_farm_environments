@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>riseholme_general_east_pathway_auto_metric</name>
+    <GroundOverlay id="0">
+        <name>auto_raw</name>
+		<visibility>0</visibility>
+        <color>bbffffff</color>
+        <Icon>
+            <href>https://raw.githubusercontent.com/LCAS/environment_template/riseholme_general_east_pathway/config/metric/map/map.png</href>
+        </Icon>
+        <LatLonBox>
+          <north>53.26954026948772</north>
+          <south>53.26774162627588</south>
+          <west>-0.526007333307001</west>
+          <east>-0.5229999532800871</east>
+          <rotation>0.0</rotation>
+        </LatLonBox>
+    </GroundOverlay>
+    <GroundOverlay id="1">
+        <name>auto_tp</name>
+		<visibility>1</visibility>
+        <color>bbffffff</color>
+        <Icon>
+            <href>https://raw.githubusercontent.com/LCAS/environment_template/riseholme_general_east_pathway/config/metric/map/map-tp.png</href>
+        </Icon>
+        <LatLonBox>
+          <north>53.26954026948772</north>
+          <south>53.26774162627588</south>
+          <west>-0.526007333307001</west>
+          <east>-0.5229999532800871</east>
+          <rotation>0.0</rotation>
+        </LatLonBox>
+    </GroundOverlay>
+</Document>
+</kml>
