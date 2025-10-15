@@ -1,0 +1,982 @@
+verts:
+  verts:
+  - verts: &vert0
+    - x: -0.13
+      y:  0.213
+    - x: -0.242
+      y:  0.059
+    - x: -0.213
+      y: -0.13
+    - x: -0.059
+      y: -0.242
+    - x:  0.13
+      y: -0.213
+    - x:  0.242
+      y: -0.059
+    - x:  0.213
+      y:  0.13
+    - x:  0.059
+      y:  0.242
+meta:
+  last_updated: 0
+metric_map: risheolme_hall_east
+name: risheolme_hall_east
+pointset: risheolme_hall_east
+transformation:
+  child: topo_map
+  parent: map
+  rotation:
+    w: 1.0
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  translation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+nodes:
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint1
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint1
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -4.91968262080432
+        y: -1.2396582768847129
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint1_WayPoint2
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint2
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint2
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint2
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -4.634097201850043
+        y: -0.047272257914078054
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint2_WayPoint1
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint1
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint2_WayPoint3
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint3
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint3
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint3
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -4.242298035328489
+        y: 1.0011501745546092
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint3_WayPoint2
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint2
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint3_WayPoint4
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint4
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint3_WayPoint29
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint29
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint4
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint4
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -3.164504953664164
+        y: 0.674121252661821
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint4_WayPoint3
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint3
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint4_WayPoint5
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint5
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint4_WayPoint28
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint28
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint5
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint5
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -2.046225759668267
+        y: 0.28335467688057864
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint5_WayPoint4
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint4
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint5_WayPoint8
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint8
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint5_WayPoint23
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint23
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint8
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint8
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -0.7881952358888916
+        y: 0.11816916057833304
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint8_WayPoint5
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint5
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint8_WayPoint22
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint22
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint8_WayPoint20
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint20
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint13
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint13
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.131193395298469
+        y: -1.0539661817356478
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint13_WayPoint14
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint14
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint14
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint14
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.457409322542239
+        y: 0.05338590808478391
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint14_WayPoint13
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint13
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint14_WayPoint20
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint20
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint14_WayPoint15
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint15
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint15
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint15
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.744682760356894
+        y: 1.298680785738284
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint15_WayPoint14
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint14
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint15_WayPoint18
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint18
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint15_WayPoint20
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint20
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint18
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint18
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 1.889303983950124
+        y: 2.463973710295267
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint18_WayPoint15
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint15
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint20
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint20
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: 0.647847871393724
+        y: 0.42055839808076234
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint20_WayPoint8
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint8
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint20_WayPoint22
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint22
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint20_WayPoint14
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint14
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint20_WayPoint15
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint15
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint22
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint22
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -0.3694862489567154
+        y: 1.0018301814505957
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint22_WayPoint23
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint23
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint22_WayPoint8
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint8
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint22_WayPoint20
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint20
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint23
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint23
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -1.5365943182739352
+        y: 1.3931161230391798
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint23_WayPoint22
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint22
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint23_WayPoint5
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint5
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint23_WayPoint28
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint28
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint28
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint28
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -2.857988581772375
+        y: 1.6535341289917382
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint28_WayPoint3
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint3
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint28_WayPoint23
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint23
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint28_WayPoint29
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint29
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+- meta:
+    map: risheolme_hall_east
+    node: WayPoint29
+    pointset: risheolme_hall_east
+  node:
+    localise_by_topic: ''
+    parent_frame: map
+    name: WayPoint29
+    pose:
+      orientation:
+        w: 0.7897749049165983
+        x: 0.0
+        y: 0.0
+        z: -0.6133967717260812
+      position:
+        x: -3.851311366399467
+        y: 1.8800456447694345
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.3
+      yaw_goal_tolerance: 0.1
+    restrictions_planning: True
+    restrictions_runtime: obstacleFree_1
+    verts: *vert0
+    edges:
+    - edge_id: WayPoint29_WayPoint3
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint3
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
+    - edge_id: WayPoint29_WayPoint28
+      action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint28
+      recovery_behaviours_config: ''
+      restrictions_planning: 'True'
+      restrictions_runtime: obstacleFree_1
