@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>riseholme_polytunnel_kml_autogen</name>
+    <gx:CascadingStyle kml:id="__managed_style_a">
+        <Style>
+            <LineStyle>
+                <color>ff2f2fd3</color>
+                <width>4</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>c02f2fd3</color>
+            </PolyStyle>
+        </Style>
+    </gx:CascadingStyle>
+    <StyleMap id="__managed_style_a_map">
+        <Pair>
+            <key>normal</key>
+            <styleUrl>#__managed_style_a</styleUrl>
+        </Pair>
+        <Pair>
+            <key>highlight</key>
+            <styleUrl>#__managed_style_a</styleUrl>
+        </Pair>
+    </StyleMap>
+    <Placemark id="datum_fence_placemark">
+        <name>riseholme_polytunnel</name>
+        <description><![CDATA[<div>riseholme_polytunnel</div>]]></description>
+        <LookAt>
+            <longitude>-0.524509505881</longitude>
+            <latitude>53.268642038</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <gx:fovy>35</gx:fovy>
+            <range>100</range>
+            <altitudeMode>absolute</altitudeMode>
+        </LookAt>
+        <styleUrl>#__managed_style_a</styleUrl>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -0.525051,53.268729,0 -0.524909,53.268227,0 -0.523978,53.268307,0 -0.52411,53.268799,0 -0.525051,53.268729,0
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
