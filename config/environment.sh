@@ -27,7 +27,7 @@
 #%    in which this environment was tested and configured.
 #%
 #================================================================
-export ENVIRONMENT_COMMON_LATEST_RELEASE='v1.0.1'
+export ENVIRONMENT_COMMON_LATEST_RELEASE='v1.0.0'
 
 
 
@@ -69,9 +69,8 @@ if [ -f "$PROPERTIES_FILE" ]; then source $PROPERTIES_FILE ; fi
 # Filepath of the Datum File
 #================================================================
 #% DESCRIPTION
-#%    Path to datum file or path to the autogen file if the
-#%    supplied version does is not given or empty if the
-#%    autogen version does not exist.
+#%    Path to datum file used to define the tf connection
+#%    between GNSS/RTK readings, and the world frame.
 #%
 #================================================================
 export DATUM_FILE="$CONFIG_DIR/location/datum.yaml"
@@ -84,14 +83,113 @@ if [ ! -f "$DATUM_FILE" ]; then export DATUM_FILE="" ; fi
 # Filepath of the Topological Map File
 #================================================================
 #% DESCRIPTION
-#%    Path to topological map file or path to the autogen
-#%    version if the supplied version is not given or
-#%    empty if the autogen version does not exist.
+#%    Path to topological map file used to represent navigible
+#%    paths through the environment.
 #%
 #================================================================
 export TMAP_FILE="$CONFIG_DIR/topological/network.tmap2.yaml"
 if [ ! -f "$TMAP_FILE" ]; then export TMAP_FILE="$CONFIG_DIR/topological/network_autogen.tmap2.yaml" ; fi
 if [ ! -f "$TMAP_FILE" ]; then export TMAP_FILE="" ; fi
+
+
+
+#================================================================
+# Filepath of the NavGraph Map File
+#================================================================
+#% DESCRIPTION
+#%    Path to NavGraph topological map, used to define paths
+#%    for robot to navigate.
+#%
+#================================================================
+export NAVGRAPH_FILE="$CONFIG_DIR/topological/navgraph.yaml"
+if [ ! -f "$NAVGRAPH_FILE" ]; then export NAVGRAPH_FILE="$CONFIG_DIR/topological/navgraph_autogen.yaml" ; fi
+if [ ! -f "$NAVGRAPH_FILE" ]; then export NAVGRAPH_FILE="" ; fi
+
+
+
+#================================================================
+# Filepath of the Probablistic Road Map File
+#================================================================
+#% DESCRIPTION
+#%    Path to Probablistic Road Map, used to define paths
+#%    for a robot to navigate.
+#%
+#================================================================
+export PRM_FILE="$CONFIG_DIR/topological/prm_graph.yaml"
+if [ ! -f "$PRM_FILE" ]; then export PRM_FILE="$CONFIG_DIR/topological/prm_graph.yaml" ; fi
+if [ ! -f "$PRM_FILE" ]; then export PRM_FILE="" ; fi
+
+
+
+#================================================================
+# Filepath of the Points of Interest Map File
+#================================================================
+#% DESCRIPTION
+#%    Path to OpenStreetMap XML file, used to define objects and
+#%    their connections using GNSS frame of reference.
+#%
+#================================================================
+export OSM_FILE="$CONFIG_DIR/topological/osm.xml"
+if [ ! -f "$OSM_FILE" ]; then export OSM_FILE="$CONFIG_DIR/topological/osm_autogen.xml" ; fi
+if [ ! -f "$OSM_FILE" ]; then export OSM_FILE="" ; fi
+
+
+
+#================================================================
+# Filepath of the Fiducial SLAM Marker Map
+#================================================================
+#% DESCRIPTION
+#%    Path to map of Fiducial markers used for localisation,
+#%    encoding information on pose, rotation and links, i.e:
+#%    id x y z pan tilt roll variance numObservations links
+#%
+#================================================================
+export FIDUCIAL_MAP_FILE="$CONFIG_DIR/world/fiducial_map.txt"
+if [ ! -f "$FIDUCIAL_MAP_FILE" ]; then export FIDUCIAL_MAP_FILE="$CONFIG_DIR/world/fiducial_map_autogen.txt" ; fi
+if [ ! -f "$FIDUCIAL_MAP_FILE" ]; then export FIDUCIAL_MAP_FILE="" ; fi
+
+
+
+#================================================================
+# Filepath of the Points of Interest Map File
+#================================================================
+#% DESCRIPTION
+#%    Path to tmap2 file used to encode information on
+#%    locations of interest, to be extended with information
+#%    on actions to perform at said locations.
+#%
+#================================================================
+export POI_FILE="$CONFIG_DIR/world/poi.tmap2.yaml"
+if [ ! -f "$POI_FILE" ]; then export POI_FILE="$CONFIG_DIR/world/poi_autogen.tmap2.yaml" ; fi
+if [ ! -f "$POI_FILE" ]; then export POI_FILE="" ; fi
+
+
+
+#================================================================
+# Filepath of the Points of Interest (SIMPLE) Map File
+#================================================================
+#% DESCRIPTION
+#%    Path to a simple yaml identifying points of interest
+#%    with simple points wrt the grid.
+#%
+#================================================================
+export POI_SIMPLE_FILE="$CONFIG_DIR/world/poi_simple.yaml"
+if [ ! -f "$POI_SIMPLE_FILE" ]; then export POI_SIMPLE_FILE="$CONFIG_DIR/world/poi_simple_autogen.yaml" ; fi
+if [ ! -f "$POI_SIMPLE_FILE" ]; then export POI_SIMPLE_FILE="" ; fi
+
+
+
+#================================================================
+# Filepath of the OpenRMF World File
+#================================================================
+#% DESCRIPTION
+#%    Path to OpenRMF world file. Used for compatibility with
+#%    the OpenRMF multi-robot simulator.
+#%
+#================================================================
+export OPENRMF_WORLD_FILE="$CONFIG_DIR/world/openrmf.yaml"
+if [ ! -f "$OPENRMF_WORLD_FILE" ]; then export OPENRMF_WORLD_FILE="$CONFIG_DIR/world/openrmf_autogen.yaml" ; fi
+if [ ! -f "$OPENRMF_WORLD_FILE" ]; then export OPENRMF_WORLD_FILE="" ; fi
 
 
 
@@ -132,13 +230,27 @@ if [ "$non_hidden_file_count" -gt 1 ]; then export GAZEBO_MODEL_PATH="$GAZEBO_MO
 #================================================================
 #% DESCRIPTION
 #%    Path to costmap yaml configuration for use with
-#%    move_base or the autogen version if the supplied
-#%    version is not given or empty if the autogen version
-#%    does not exist.
+#%    move_base or nav2. For use with general navigation
+#%    and obstacle avoidance.
 #%
 #================================================================
 export COSTMAP_YAML_FILE="$CONFIG_DIR/metric/map/map.yaml"
 if [ ! -f "$COSTMAP_YAML_FILE" ]; then export COSTMAP_YAML_FILE="$CONFIG_DIR/metric/map/map_autogen.yaml" ; fi
 if [ ! -f "$COSTMAP_YAML_FILE" ]; then export COSTMAP_YAML_FILE="" ; fi
+
+
+
+#================================================================
+# Filepath of the NoGo Costmap YAML Configuration File
+#================================================================
+#% DESCRIPTION
+#%    Path to nogo costmap yaml configuration for use with
+#%    move_base and nav2. Used to explicitly express obstacles
+#%    beyond the visible range of the lidar.
+#%
+#================================================================
+export NOGO_COSTMAP_YAML_FILE="$CONFIG_DIR/metric/nogo/map.yaml"
+if [ ! -f "$NOGO_COSTMAP_YAML_FILE" ]; then export NOGO_COSTMAP_YAML_FILE="$CONFIG_DIR/metric/nogo/map_autogen.yaml" ; fi
+if [ ! -f "$NOGO_COSTMAP_YAML_FILE" ]; then export NOGO_COSTMAP_YAML_FILE="" ; fi
 
 
