@@ -23,7 +23,7 @@
 #% DESCRIPTION
 #%    Section to define the origin of the maps if one exists
 #================================================================
-export ENVIRONMENT_ORIGINS='RASberry.git'
+export ENVIRONMENT_ORIGINS=''
 
 
 #================================================================
@@ -32,7 +32,7 @@ export ENVIRONMENT_ORIGINS='RASberry.git'
 #% DESCRIPTION
 #%    Used to identify the associated farm.
 #================================================================
-export FARM_NAME='riseholme_park'
+export FARM_NAME=''
 
 
 
@@ -42,6 +42,6 @@ export FARM_NAME='riseholme_park'
 #% DESCRIPTION
 #%    Used to identify the associated field.
 #================================================================
-export FIELD_NAME='strawberry_polytunnels'
-export FIELD_ID='poly1'
-export FIELD_TYPE='polytunnel'
+export FIELD_NAME=''
+export FIELD_ID=''
+export FIELD_TYPE=''
