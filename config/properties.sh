@@ -23,7 +23,7 @@
 #% DESCRIPTION
 #%    Section to define the origin of the maps if one exists
 #================================================================
-export ENVIRONMENT_ORIGINS='google_earth'
+export ENVIRONMENT_ORIGINS=''
 
 
 #================================================================
@@ -32,7 +32,7 @@ export ENVIRONMENT_ORIGINS='google_earth'
 #% DESCRIPTION
 #%    Used to identify the associated farm.
 #================================================================
-export FARM_NAME='riseholme_pack_farm'
+export FARM_NAME=''
 
 
 
@@ -42,6 +42,6 @@ export FARM_NAME='riseholme_pack_farm'
 #% DESCRIPTION
 #%    Used to identify the associated field.
 #================================================================
-export FIELD_NAME='briary_hill'
-export FIELD_ID='bh1'
-export FIELD_TYPE='woodland'
+export FIELD_NAME=''
+export FIELD_ID=''
+export FIELD_TYPE=''
