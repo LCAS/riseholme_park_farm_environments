@@ -1,0 +1,15 @@
+services:
+  environment_template_autocomplete:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: environment_template_autocomplete
+    hostname: environment_template_autocomplete
+    tty: true
+    stdin_open: true
+    volumes:
+      - ../bash_scripts/container:/home/ros/bash_scripts:rw
+      - ..:/home/ros/ros2_ws/src/environment_template:rw
+      - $HOME/ros2_ws/src/environment_common:/home/ros/ros2_ws/src/environment_common:rw #temporary
+    command: ["bash", "-l", "-c", "/home/ros/bash_scripts/start.sh"]
+
