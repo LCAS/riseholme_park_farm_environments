@@ -23,7 +23,7 @@
 #% DESCRIPTION
 #%    Section to define the origin of the maps if one exists
 #================================================================
-export ENVIRONMENT_ORIGINS=''
+export ENVIRONMENT_ORIGINS='RASberry.git'
 
 
 #================================================================
@@ -32,7 +32,7 @@ export ENVIRONMENT_ORIGINS=''
 #% DESCRIPTION
 #%    Used to identify the associated farm.
 #================================================================
-export FARM_NAME=''
+export FARM_NAME='riseholme_park_farm'
 
 
 
