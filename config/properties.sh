@@ -32,7 +32,7 @@ export ENVIRONMENT_ORIGINS=''
 #% DESCRIPTION
 #%    Used to identify the associated farm.
 #================================================================
-export FARM_NAME='riseholme_park_farm'
+export FARM_NAME=''
 
 
 
@@ -42,6 +42,6 @@ export FARM_NAME='riseholme_park_farm'
 #% DESCRIPTION
 #%    Used to identify the associated field.
 #================================================================
-export FIELD_NAME='vineyard'
-export FIELD_ID='v1'
-export FIELD_TYPE='vineyard'
+export FIELD_NAME=''
+export FIELD_ID=''
+export FIELD_TYPE=''
