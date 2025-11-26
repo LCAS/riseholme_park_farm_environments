@@ -1,41 +1,4 @@
 #TOPOLOGY (Node Descriptors)
-special_nodes_clockhouse_temp:
-#tunnel ends
-  - {id: WayPoint348, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint350, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint352, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint354, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint355, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint357, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-
-#og spawns
-  - {id: WayPoint221, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint218, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint217, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint213, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-
-#broken
-  - {id: WayPoint400, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint399, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint398, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-
-# fock ends
-  - {id: WayPoint363, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint366, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint368, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint370, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint373, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint375, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint378, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint381, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint383, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint385, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-
-
-kpi_target_region_clockhouse:
-    all: [[-95.05, 60.55], [-61.80, 47.30], [-30.07, 129.09], [-63.68, 142.31]]
-
-#TOPOLOGY (Node Descriptors)
 special_nodes:
 
   # Base Nodes
