@@ -1,0 +1,77 @@
+#TOPOLOGY (Node Descriptors)
+special_nodes_clockhouse_temp:
+#tunnel ends
+  - {id: WayPoint348, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint350, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint352, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint354, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint355, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint357, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+
+#og spawns
+  - {id: WayPoint221, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint218, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint217, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint213, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+
+#broken
+  - {id: WayPoint400, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint399, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint398, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+
+# fock ends
+  - {id: WayPoint363, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint366, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint368, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint370, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint373, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint375, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint378, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint381, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint383, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint385, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+
+
+kpi_target_region_clockhouse:
+    all: [[-95.05, 60.55], [-61.80, 47.30], [-30.07, 129.09], [-63.68, 142.31]]
+
+#TOPOLOGY (Node Descriptors)
+special_nodes:
+
+  # Base Nodes
+  - {id: WayPoint140, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint141, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint142, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+
+  # Wait Nodes
+  - {id: WayPoint70, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint71, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint72, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+
+#  # Charging Stations
+#  - {id: dock-0, descriptors: [charging_station]}
+#  - {id: dock-1, descriptors: [charging_station]}
+#  - {id: dock-2, descriptors: [charging_station]}
+
+kpi_target_region:
+  all:
+    polygon: [[28.95, -10.03], [12.00, -12.65], [15.19, -36.62], [32.94, -33.87]]
+    colour: '#FFFF00'
+  dogtooth_001:
+    polygon: [[30.66, 0.85], [31.82, -3.31], [20.30, -5.86], [15.47, -5.68], [15.90, -3.29], [22.03, -1.98]]
+    colour: '#0000FF'
+  dynium_001:
+    polygon: [[20.72, 5.53], [53.81, 9.66], [53.15, 37.22], [-10.56, 28.80], [-2.12, 2.42], [15.74, 4.96]]
+    colour: '#000000'
+  hunter_001:
+    #polygon: [[27.78, -7.32], [22.61, -8.27], [26.62, -38.04], [32.13, -37.03]] #wide
+    polygon: [[25.08, -7.98], [23.13, -8.43], [27.27, -36.95], [29.40, -36.58]] #centre
+    colour: '#00FF00'
+  thorvald_024:
+    polygon: [[22.45, -8.29], [26.66, -38.01], [22.13, -38.70], [17.84, -8.93]]
+    colour: '#FF0000'
+  hunter_002:
+    #polygon: [[17.84, -8.93], [21.88, -38.91], [16.91, -39.64], [12.44, -9.75]] wide
+    polygon: [[17.27, -9.39], [15.15, -9.77], [19.37, -38.23], [21.27, -37.88]] #centre
+    colour: '#FF00FF'
+
