@@ -1854,8 +1854,7 @@ nodes:
       node: r5.7-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -1875,19 +1874,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: a
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -1925,8 +1925,7 @@ nodes:
       node: r5.7-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -1943,8 +1942,7 @@ nodes:
       node: r5.7-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -1964,19 +1962,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: b
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2014,8 +2013,7 @@ nodes:
       node: r5.7-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2032,8 +2030,7 @@ nodes:
       node: r5.7-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2053,19 +2050,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: '0'
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2103,8 +2101,7 @@ nodes:
       node: r5.7-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2121,8 +2118,7 @@ nodes:
       node: r5.7-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2142,19 +2138,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: '1'
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2192,8 +2189,7 @@ nodes:
       node: r5.7-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2210,8 +2206,7 @@ nodes:
       node: r5.7-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2231,19 +2226,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: '2'
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2281,8 +2277,7 @@ nodes:
       node: r5.7-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2299,8 +2294,7 @@ nodes:
       node: r5.7-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2320,19 +2314,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: '3'
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2370,8 +2365,7 @@ nodes:
       node: r5.7-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2388,8 +2382,7 @@ nodes:
       node: r5.7-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2409,19 +2402,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: '4'
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2459,8 +2453,7 @@ nodes:
       node: r5.7-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2477,8 +2470,7 @@ nodes:
       node: r5.7-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2498,19 +2490,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: '5'
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2548,8 +2541,7 @@ nodes:
       node: r5.7-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2566,8 +2558,7 @@ nodes:
       node: r5.7-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2587,19 +2578,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: y
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2637,8 +2629,7 @@ nodes:
       node: r5.7-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2658,19 +2649,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.7'
+          adjacent_beds:
+          - 5
           column_id: z
+          row_id: '5.7'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2710,8 +2702,7 @@ nodes:
       node: r6.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: NavigateToPose
@@ -2728,8 +2719,7 @@ nodes:
       node: WayPoint66
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2749,19 +2739,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: a
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2799,8 +2791,7 @@ nodes:
       node: r6.5-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2817,8 +2808,7 @@ nodes:
       node: r6.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2838,19 +2828,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: b
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2888,8 +2880,7 @@ nodes:
       node: r6.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2906,8 +2897,7 @@ nodes:
       node: r6.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -2927,19 +2917,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: '0'
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -2977,8 +2969,7 @@ nodes:
       node: r6.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -2995,8 +2986,7 @@ nodes:
       node: r6.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3016,19 +3006,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: '1'
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3066,8 +3058,7 @@ nodes:
       node: r6.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3084,8 +3075,7 @@ nodes:
       node: r6.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3105,19 +3095,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: '2'
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3155,8 +3147,7 @@ nodes:
       node: r6.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3173,8 +3164,7 @@ nodes:
       node: r6.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3194,19 +3184,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: '3'
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3244,8 +3236,7 @@ nodes:
       node: r6.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3262,8 +3253,7 @@ nodes:
       node: r6.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3283,19 +3273,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: '4'
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3333,8 +3325,7 @@ nodes:
       node: r6.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3351,8 +3342,7 @@ nodes:
       node: r6.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3372,19 +3362,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: '5'
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3422,8 +3414,7 @@ nodes:
       node: r6.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3440,8 +3431,7 @@ nodes:
       node: r6.5-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3461,19 +3451,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: y
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3511,8 +3503,7 @@ nodes:
       node: r6.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3532,19 +3523,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '6.5'
+          adjacent_beds:
+          - 6
+          - 7
           column_id: z
+          row_id: '6.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3584,8 +3577,7 @@ nodes:
       node: r7.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: NavigateToPose
@@ -3602,8 +3594,7 @@ nodes:
       node: WayPoint56
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3623,19 +3614,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: a
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3673,8 +3666,7 @@ nodes:
       node: r7.5-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3691,8 +3683,7 @@ nodes:
       node: r7.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3712,19 +3703,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: b
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3762,8 +3755,7 @@ nodes:
       node: r7.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3780,8 +3772,7 @@ nodes:
       node: r7.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3801,19 +3792,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: '0'
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3851,8 +3844,7 @@ nodes:
       node: r7.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3869,8 +3861,7 @@ nodes:
       node: r7.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3890,19 +3881,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: '1'
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -3940,8 +3933,7 @@ nodes:
       node: r7.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -3958,8 +3950,7 @@ nodes:
       node: r7.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -3979,19 +3970,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: '2'
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4029,8 +4022,7 @@ nodes:
       node: r7.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4047,8 +4039,7 @@ nodes:
       node: r7.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4068,19 +4059,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: '3'
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4118,8 +4111,7 @@ nodes:
       node: r7.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4136,8 +4128,7 @@ nodes:
       node: r7.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4157,19 +4148,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: '4'
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4207,8 +4200,7 @@ nodes:
       node: r7.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4225,8 +4217,7 @@ nodes:
       node: r7.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4246,19 +4237,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: '5'
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4296,8 +4289,7 @@ nodes:
       node: r7.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4314,8 +4306,7 @@ nodes:
       node: r7.5-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4335,19 +4326,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: y
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4385,8 +4378,7 @@ nodes:
       node: r7.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4406,19 +4398,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '7.5'
+          adjacent_beds:
+          - 7
+          - 8
           column_id: z
+          row_id: '7.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4456,8 +4450,7 @@ nodes:
       node: r8.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: NavigateToPose
@@ -4474,8 +4467,7 @@ nodes:
       node: WayPoint56
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4495,19 +4487,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: a
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4545,8 +4539,7 @@ nodes:
       node: r8.5-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4563,8 +4556,7 @@ nodes:
       node: r8.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4584,19 +4576,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: b
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4634,8 +4628,7 @@ nodes:
       node: r8.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4652,8 +4645,7 @@ nodes:
       node: r8.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4673,19 +4665,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: '0'
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4723,8 +4717,7 @@ nodes:
       node: r8.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4741,8 +4734,7 @@ nodes:
       node: r8.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4762,19 +4754,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: '1'
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4812,8 +4806,7 @@ nodes:
       node: r8.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4830,8 +4823,7 @@ nodes:
       node: r8.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4851,19 +4843,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: '2'
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4901,8 +4895,7 @@ nodes:
       node: r8.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -4919,8 +4912,7 @@ nodes:
       node: r8.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -4940,19 +4932,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: '3'
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -4990,8 +4984,7 @@ nodes:
       node: r8.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5008,8 +5001,7 @@ nodes:
       node: r8.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5029,19 +5021,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: '4'
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5079,8 +5073,7 @@ nodes:
       node: r8.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5097,8 +5090,7 @@ nodes:
       node: r8.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5118,19 +5110,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: '5'
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5168,8 +5162,7 @@ nodes:
       node: r8.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5186,8 +5179,7 @@ nodes:
       node: r8.5-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5207,19 +5199,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: y
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5257,8 +5251,7 @@ nodes:
       node: r8.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5278,19 +5271,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '8.5'
+          adjacent_beds:
+          - 8
+          - 9
           column_id: z
+          row_id: '8.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5330,8 +5325,7 @@ nodes:
       node: r9.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: NavigateToPose
@@ -5348,8 +5342,7 @@ nodes:
       node: WayPoint63
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5369,19 +5362,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: a
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5419,8 +5414,7 @@ nodes:
       node: r9.5-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5437,8 +5431,7 @@ nodes:
       node: r9.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5458,19 +5451,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: b
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5508,8 +5503,7 @@ nodes:
       node: r9.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5526,8 +5520,7 @@ nodes:
       node: r9.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5547,19 +5540,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: '0'
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5597,8 +5592,7 @@ nodes:
       node: r9.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5615,8 +5609,7 @@ nodes:
       node: r9.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5636,19 +5629,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: '1'
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5686,8 +5681,7 @@ nodes:
       node: r9.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5704,8 +5698,7 @@ nodes:
       node: r9.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5725,19 +5718,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: '2'
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5775,8 +5770,7 @@ nodes:
       node: r9.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5793,8 +5787,7 @@ nodes:
       node: r9.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5814,19 +5807,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: '3'
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5864,8 +5859,7 @@ nodes:
       node: r9.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5882,8 +5876,7 @@ nodes:
       node: r9.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5903,19 +5896,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: '4'
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -5953,8 +5948,7 @@ nodes:
       node: r9.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -5971,8 +5965,7 @@ nodes:
       node: r9.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -5992,19 +5985,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: '5'
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6042,8 +6037,7 @@ nodes:
       node: r9.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6060,8 +6054,7 @@ nodes:
       node: r9.5-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6081,19 +6074,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: y
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6131,8 +6126,7 @@ nodes:
       node: r9.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6152,19 +6146,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '9.5'
+          adjacent_beds:
+          - 9
+          - 10
           column_id: z
+          row_id: '9.5'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6204,8 +6200,7 @@ nodes:
       node: r10.3-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6225,19 +6220,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: a
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6275,8 +6271,7 @@ nodes:
       node: r10.3-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6293,8 +6288,7 @@ nodes:
       node: r10.3-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6314,19 +6308,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: b
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6364,8 +6359,7 @@ nodes:
       node: r10.3-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6382,8 +6376,7 @@ nodes:
       node: r10.3-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6403,19 +6396,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: '0'
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6453,8 +6447,7 @@ nodes:
       node: r10.3-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6471,8 +6464,7 @@ nodes:
       node: r10.3-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6492,19 +6484,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: '1'
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6542,8 +6535,7 @@ nodes:
       node: r10.3-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6560,8 +6552,7 @@ nodes:
       node: r10.3-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6581,19 +6572,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: '2'
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6631,8 +6623,7 @@ nodes:
       node: r10.3-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6649,8 +6640,7 @@ nodes:
       node: r10.3-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6670,19 +6660,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: '3'
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6720,8 +6711,7 @@ nodes:
       node: r10.3-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6738,8 +6728,7 @@ nodes:
       node: r10.3-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6759,19 +6748,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: '4'
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6809,8 +6799,7 @@ nodes:
       node: r10.3-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6827,8 +6816,7 @@ nodes:
       node: r10.3-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6848,19 +6836,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: '5'
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6898,8 +6887,7 @@ nodes:
       node: r10.3-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -6916,8 +6904,7 @@ nodes:
       node: r10.3-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -6937,19 +6924,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: y
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -6987,8 +6975,7 @@ nodes:
       node: r10.3-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7008,19 +6995,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '10.3'
+          adjacent_beds:
+          - 11
           column_id: z
+          row_id: '10.3'
           tunnel_id: '1'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3839717361251064
       y: -0.6411198818013286
@@ -7060,8 +7048,7 @@ nodes:
       node: r0.7-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7081,19 +7068,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: a
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7131,8 +7119,7 @@ nodes:
       node: r0.7-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -7149,8 +7136,7 @@ nodes:
       node: r0.7-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7170,19 +7156,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: b
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7220,8 +7207,7 @@ nodes:
       node: r0.7-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -7238,8 +7224,7 @@ nodes:
       node: r0.7-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7259,19 +7244,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: '0'
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7309,8 +7295,7 @@ nodes:
       node: r0.7-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -7327,8 +7312,7 @@ nodes:
       node: r0.7-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7348,19 +7332,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: '1'
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7398,8 +7383,7 @@ nodes:
       node: r0.7-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -7416,8 +7400,7 @@ nodes:
       node: r0.7-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7437,19 +7420,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: '2'
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7487,8 +7471,7 @@ nodes:
       node: r0.7-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -7505,8 +7488,7 @@ nodes:
       node: r0.7-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7526,19 +7508,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: '3'
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7576,8 +7559,7 @@ nodes:
       node: r0.7-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -7594,8 +7576,7 @@ nodes:
       node: r0.7-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7615,19 +7596,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: '4'
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7665,8 +7647,7 @@ nodes:
       node: r0.7-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -7683,8 +7664,7 @@ nodes:
       node: r0.7-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7704,19 +7684,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: '5'
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7754,8 +7735,7 @@ nodes:
       node: r0.7-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -7772,8 +7752,7 @@ nodes:
       node: r0.7-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7793,19 +7772,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: y
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7843,8 +7823,7 @@ nodes:
       node: r0.7-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7864,19 +7843,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '0.7'
+          adjacent_beds:
+          - 0
           column_id: z
+          row_id: '0.7'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -7916,8 +7896,7 @@ nodes:
       node: r1.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: NavigateToPose
@@ -7934,8 +7913,7 @@ nodes:
       node: WayPoint67
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -7955,19 +7933,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: a
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8005,8 +7985,7 @@ nodes:
       node: r1.5-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8023,8 +8002,7 @@ nodes:
       node: r1.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8044,19 +8022,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: b
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8094,8 +8074,7 @@ nodes:
       node: r1.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8112,8 +8091,7 @@ nodes:
       node: r1.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8133,19 +8111,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: '0'
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8183,8 +8163,7 @@ nodes:
       node: r1.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8201,8 +8180,7 @@ nodes:
       node: r1.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8222,19 +8200,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: '1'
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8272,8 +8252,7 @@ nodes:
       node: r1.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8290,8 +8269,7 @@ nodes:
       node: r1.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8311,19 +8289,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: '2'
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8361,8 +8341,7 @@ nodes:
       node: r1.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8379,8 +8358,7 @@ nodes:
       node: r1.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8400,19 +8378,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: '3'
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8450,8 +8430,7 @@ nodes:
       node: r1.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8468,8 +8447,7 @@ nodes:
       node: r1.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8489,19 +8467,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: '4'
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8539,8 +8519,7 @@ nodes:
       node: r1.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8557,8 +8536,7 @@ nodes:
       node: r1.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8578,19 +8556,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: '5'
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8628,8 +8608,7 @@ nodes:
       node: r1.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8646,8 +8625,7 @@ nodes:
       node: r1.5-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8667,19 +8645,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: y
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8717,8 +8697,7 @@ nodes:
       node: r1.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8738,19 +8717,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '1.5'
+          adjacent_beds:
+          - 1
+          - 2
           column_id: z
+          row_id: '1.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8790,8 +8771,7 @@ nodes:
       node: r2.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: NavigateToPose
@@ -8808,8 +8788,7 @@ nodes:
       node: WayPoint73
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8829,19 +8808,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: a
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8879,8 +8860,7 @@ nodes:
       node: r2.5-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8897,8 +8877,7 @@ nodes:
       node: r2.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -8918,19 +8897,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: b
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -8968,8 +8949,7 @@ nodes:
       node: r2.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -8986,8 +8966,7 @@ nodes:
       node: r2.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9007,19 +8986,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: '0'
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9057,8 +9038,7 @@ nodes:
       node: r2.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9075,8 +9055,7 @@ nodes:
       node: r2.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9096,19 +9075,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: '1'
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9146,8 +9127,7 @@ nodes:
       node: r2.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9164,8 +9144,7 @@ nodes:
       node: r2.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9185,19 +9164,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: '2'
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9235,8 +9216,7 @@ nodes:
       node: r2.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9253,8 +9233,7 @@ nodes:
       node: r2.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9274,19 +9253,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: '3'
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9324,8 +9305,7 @@ nodes:
       node: r2.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9342,8 +9322,7 @@ nodes:
       node: r2.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9363,19 +9342,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: '4'
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9413,8 +9394,7 @@ nodes:
       node: r2.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9431,8 +9411,7 @@ nodes:
       node: r2.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9452,19 +9431,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: '5'
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9502,8 +9483,7 @@ nodes:
       node: r2.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9520,8 +9500,7 @@ nodes:
       node: r2.5-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9541,19 +9520,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: y
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9591,8 +9572,7 @@ nodes:
       node: r2.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9612,19 +9592,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '2.5'
+          adjacent_beds:
+          - 2
+          - 3
           column_id: z
+          row_id: '2.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9664,8 +9646,7 @@ nodes:
       node: r3.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: NavigateToPose
@@ -9682,8 +9663,7 @@ nodes:
       node: WayPoint73
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9703,19 +9683,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: a
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9753,8 +9735,7 @@ nodes:
       node: r3.5-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9771,8 +9752,7 @@ nodes:
       node: r3.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9792,19 +9772,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: b
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9842,8 +9824,7 @@ nodes:
       node: r3.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9860,8 +9841,7 @@ nodes:
       node: r3.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9881,19 +9861,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: '0'
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -9931,8 +9913,7 @@ nodes:
       node: r3.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -9949,8 +9930,7 @@ nodes:
       node: r3.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -9970,19 +9950,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: '1'
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10020,8 +10002,7 @@ nodes:
       node: r3.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10038,8 +10019,7 @@ nodes:
       node: r3.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10059,19 +10039,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: '2'
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10109,8 +10091,7 @@ nodes:
       node: r3.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10127,8 +10108,7 @@ nodes:
       node: r3.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10148,19 +10128,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: '3'
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10198,8 +10180,7 @@ nodes:
       node: r3.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10216,8 +10197,7 @@ nodes:
       node: r3.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10237,19 +10217,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: '4'
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10287,8 +10269,7 @@ nodes:
       node: r3.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10305,8 +10286,7 @@ nodes:
       node: r3.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10326,19 +10306,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: '5'
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10376,8 +10358,7 @@ nodes:
       node: r3.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10394,8 +10375,7 @@ nodes:
       node: r3.5-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10415,19 +10395,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: y
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10465,8 +10447,7 @@ nodes:
       node: r3.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10486,19 +10467,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '3.5'
+          adjacent_beds:
+          - 3
+          - 4
           column_id: z
+          row_id: '3.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10538,8 +10521,7 @@ nodes:
       node: r4.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: NavigateToPose
@@ -10556,8 +10538,7 @@ nodes:
       node: WayPoint74
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10577,19 +10558,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: a
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10627,8 +10610,7 @@ nodes:
       node: r4.5-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10645,8 +10627,7 @@ nodes:
       node: r4.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10666,19 +10647,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: b
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10716,8 +10699,7 @@ nodes:
       node: r4.5-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10734,8 +10716,7 @@ nodes:
       node: r4.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10755,19 +10736,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: '0'
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10805,8 +10788,7 @@ nodes:
       node: r4.5-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10823,8 +10805,7 @@ nodes:
       node: r4.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10844,19 +10825,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: '1'
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10894,8 +10877,7 @@ nodes:
       node: r4.5-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -10912,8 +10894,7 @@ nodes:
       node: r4.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -10933,19 +10914,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: '2'
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -10983,8 +10966,7 @@ nodes:
       node: r4.5-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11001,8 +10983,7 @@ nodes:
       node: r4.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11022,19 +11003,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: '3'
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11072,8 +11055,7 @@ nodes:
       node: r4.5-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11090,8 +11072,7 @@ nodes:
       node: r4.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11111,19 +11092,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: '4'
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11161,8 +11144,7 @@ nodes:
       node: r4.5-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11179,8 +11161,7 @@ nodes:
       node: r4.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11200,19 +11181,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: '5'
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11250,8 +11233,7 @@ nodes:
       node: r4.5-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11268,8 +11250,7 @@ nodes:
       node: r4.5-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11289,19 +11270,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: y
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11339,8 +11322,7 @@ nodes:
       node: r4.5-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11360,19 +11342,21 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '4.5'
+          adjacent_beds:
+          - 4
+          - 5
           column_id: z
+          row_id: '4.5'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11412,8 +11396,7 @@ nodes:
       node: r5.3-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11433,19 +11416,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: 'False'
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: a
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11483,8 +11467,7 @@ nodes:
       node: r5.3-ca
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11501,8 +11484,7 @@ nodes:
       node: r5.3-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11522,19 +11504,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: b
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11572,8 +11555,7 @@ nodes:
       node: r5.3-cb
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11590,8 +11572,7 @@ nodes:
       node: r5.3-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11611,19 +11592,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: '0'
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11661,8 +11643,7 @@ nodes:
       node: r5.3-c0
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11679,8 +11660,7 @@ nodes:
       node: r5.3-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11700,19 +11680,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: '1'
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11750,8 +11731,7 @@ nodes:
       node: r5.3-c1
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11768,8 +11748,7 @@ nodes:
       node: r5.3-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11789,19 +11768,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: '2'
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11839,8 +11819,7 @@ nodes:
       node: r5.3-c2
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11857,8 +11836,7 @@ nodes:
       node: r5.3-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11878,19 +11856,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: '3'
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -11928,8 +11907,7 @@ nodes:
       node: r5.3-c3
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -11946,8 +11924,7 @@ nodes:
       node: r5.3-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -11967,19 +11944,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: '4'
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -12017,8 +11995,7 @@ nodes:
       node: r5.3-c4
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -12035,8 +12012,7 @@ nodes:
       node: r5.3-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -12056,19 +12032,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: '5'
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -12106,8 +12083,7 @@ nodes:
       node: r5.3-c5
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     - action: row_traversal
@@ -12124,8 +12100,7 @@ nodes:
       node: r5.3-cz
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -12145,19 +12120,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: y
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
@@ -12195,8 +12171,7 @@ nodes:
       node: r5.3-cy
       recovery_behaviours_config: ''
       restrictions:
-        min_cavity_height: 1.6
-        min_cavity_width: 0.8
+        max_external_width: 0.8
       restrictions_planning: robot_short
       restrictions_runtime: obstacleFree_1
     localise_by_topic: ''
@@ -12216,19 +12191,20 @@ nodes:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 6.28
     restrictions:
-      min_cavity_height: 1.6
-      min_cavity_width: 0.8
+      max_external_width: 0.8
     restrictions_planning: robot_short
     restrictions_runtime: obstacleFree_1
     semantics:
       zone:
         details:
-          bed_id: '5.3'
+          adjacent_beds:
+          - 6
           column_id: z
+          row_id: '5.3'
           tunnel_id: '0'
         labels:
         - polytunnel
-        - raised_bed
+        - row
     verts:
     - x: 0.3848983733954697
       y: -0.6405640008159993
