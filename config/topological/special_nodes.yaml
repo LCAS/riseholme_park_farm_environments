@@ -5,11 +5,13 @@ special_nodes:
   - {id: WayPoint140, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
   - {id: WayPoint141, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
   - {id: WayPoint142, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint144, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+  - {id: WayPoint145, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
 
   # Wait Nodes
-  - {id: WayPoint70, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint71, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
-  - {id: WayPoint72, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+#  - {id: WayPoint70, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+#  - {id: WayPoint71, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
+#  - {id: WayPoint72, descriptors: [base_tp_node, base_dc_node, storage_wait_node, wait_node]}
 
 #  # Charging Stations
 #  - {id: dock-0, descriptors: [charging_station]}
@@ -24,7 +26,7 @@ kpi_target_region:
     polygon: [[30.66, 0.85], [31.82, -3.31], [20.30, -5.86], [15.47, -5.68], [15.90, -3.29], [22.03, -1.98]]
     colour: '#0000FF'
   dynium_001:
-    polygon: [[20.72, 5.53], [53.81, 9.66], [53.15, 37.22], [-10.56, 28.80], [-2.12, 2.42], [15.74, 4.96], [19.44, 5.35], [20.21, 0.81], [22.36, 0.46], [21.47, 5.60]]
+    polygon: [[53.81, 9.66], [53.15, 37.22], [-10.56, 28.80], [-2.12, 2.42], [22.65, 6.28], [23.85, 1.03], [27.43, 1.71], [26.28, 6.89]]
     colour: '#000000'
   hunter_001:
     #polygon: [[27.78, -7.32], [22.61, -8.27], [26.62, -38.04], [32.13, -37.03]] #wide

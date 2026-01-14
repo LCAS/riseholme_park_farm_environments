@@ -899,6 +899,24 @@ nodes:
         max_width: 0.8
       restrictions_planning: 'True'
       restrictions_runtime: 'True'
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      edge_id: WayPoint68_WayPoint145
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint145
+      recovery_behaviours_config: ''
+      restrictions:
+        max_height: 1.6
+        max_width: 0.8
+      restrictions_planning: 'True'
+      restrictions_runtime: 'True'
     localise_by_topic: ''
     name: WayPoint68
     parent_frame: map
@@ -16741,6 +16759,151 @@ nodes:
       y: -0.689999997616
     - x: 0.689999997616
       y: -0.287000000477
+- meta:
+    map: riseholme
+    node: WayPoint145
+    pointset: riseholme_restrict
+    tag:
+    - node_semantic::outdoor
+  node:
+    edges:
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      edge_id: WayPoint145_WayPoint68
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint68
+      recovery_behaviours_config: ''
+      restrictions: {}
+      restrictions_planning: 'True'
+      restrictions_runtime: 'True'
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      edge_id: WayPoint145_WayPoint146
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint146
+      recovery_behaviours_config: ''
+      restrictions: {}
+      restrictions_planning: 'True'
+      restrictions_runtime: 'True'
+    localise_by_topic: ''
+    name: WayPoint145
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.689354695246495
+        x: 0.0
+        y: 0.0
+        z: -0.7244239809266477
+      position:
+        x: 25.16
+        y: 8.20
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.35
+      yaw_goal_tolerance: 6.29
+    restrictions: {}
+    restrictions_planning: 'True'
+    restrictions_runtime: 'True'
+    semantics:
+      zone:
+        labels:
+        - outdoors
+    verts:
+    - x: 0.689999997616
+      y: 0.287000000477
+    - x: 0.287000000477
+      y: 0.689999997616
+    - x: -0.287000000477
+      y: 0.689999997616
+    - x: -0.689999997616
+      y: 0.287000000477
+    - x: -0.689999997616
+      y: -0.287000000477
+    - x: -0.287000000477
+      y: -0.689999997616
+    - x: 0.287000000477
+      y: -0.689999997616
+    - x: 0.689999997616
+      y: -0.287000000477
+- meta:
+    map: riseholme
+    node: WayPoint146
+    pointset: riseholme_restrict
+    tag:
+    - node_semantic::outdoor
+  node:
+    edges:
+    - action: NavigateToPose
+      action_type: geometry_msgs/PoseStamped
+      config: []
+      edge_id: WayPoint146_WayPoint145
+      fail_policy: fail
+      fluid_navigation: true
+      goal:
+        target_pose:
+          header:
+            frame_id: $node.parent_frame
+          pose: $node.pose
+      node: WayPoint145
+      recovery_behaviours_config: ''
+      restrictions: {}
+      restrictions_planning: 'True'
+      restrictions_runtime: 'True'
+    localise_by_topic: ''
+    name: WayPoint146
+    parent_frame: map
+    pose:
+      orientation:
+        w: 0.689354695246495
+        x: 0.0
+        y: 0.0
+        z: -0.7244239809266477
+      position:
+        x: 24.19
+        y: 13.59
+        z: 0.0
+    properties:
+      xy_goal_tolerance: 0.35
+      yaw_goal_tolerance: 6.29
+    restrictions: {}
+    restrictions_planning: 'True'
+    restrictions_runtime: 'True'
+    semantics:
+      zone:
+        labels:
+        - outdoors
+    verts:
+    - x: 0.689999997616
+      y: 0.287000000477
+    - x: 0.287000000477
+      y: 0.689999997616
+    - x: -0.287000000477
+      y: 0.689999997616
+    - x: -0.689999997616
+      y: 0.287000000477
+    - x: -0.689999997616
+      y: -0.287000000477
+    - x: -0.287000000477
+      y: -0.689999997616
+    - x: 0.287000000477
+      y: -0.689999997616
+    - x: 0.689999997616
+      y: -0.287000000477
+
 pointset: riseholme_restrict
 transformation:
   child: topo_map
@@ -16754,3 +16917,8 @@ transformation:
     x: 0.0
     y: 0.0
     z: 0.0
+
+
+
+
+
