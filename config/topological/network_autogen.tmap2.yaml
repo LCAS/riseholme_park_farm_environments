@@ -74,7 +74,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -91,7 +91,7 @@ nodes:
           pose: $node.pose
       node: WayPoint2
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -114,7 +114,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -131,7 +131,7 @@ nodes:
           pose: $node.pose
       node: WayPoint3
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint2_WayPoint1
       action: move_base
@@ -146,7 +146,7 @@ nodes:
           pose: $node.pose
       node: WayPoint1
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -169,7 +169,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -186,7 +186,7 @@ nodes:
           pose: $node.pose
       node: WayPoint36
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint3_WayPoint2
       action: move_base
@@ -201,7 +201,7 @@ nodes:
           pose: $node.pose
       node: WayPoint2
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint3_WayPoint4
       action: move_base
@@ -216,7 +216,7 @@ nodes:
           pose: $node.pose
       node: WayPoint4
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -239,7 +239,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -256,7 +256,7 @@ nodes:
           pose: $node.pose
       node: WayPoint3
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint4_WayPoint5
       action: move_base
@@ -271,7 +271,7 @@ nodes:
           pose: $node.pose
       node: WayPoint5
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -294,7 +294,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -311,7 +311,7 @@ nodes:
           pose: $node.pose
       node: WayPoint6
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint5_WayPoint4
       action: move_base
@@ -326,7 +326,7 @@ nodes:
           pose: $node.pose
       node: WayPoint4
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -349,7 +349,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -366,7 +366,7 @@ nodes:
           pose: $node.pose
       node: WayPoint5
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint6_WayPoint39
       action: move_base
@@ -381,7 +381,7 @@ nodes:
           pose: $node.pose
       node: WayPoint39
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint6_WayPoint7
       action: move_base
@@ -396,7 +396,7 @@ nodes:
           pose: $node.pose
       node: WayPoint7
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -419,7 +419,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -436,7 +436,7 @@ nodes:
           pose: $node.pose
       node: WayPoint8
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint7_WayPoint6
       action: move_base
@@ -451,7 +451,7 @@ nodes:
           pose: $node.pose
       node: WayPoint6
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -474,7 +474,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -491,7 +491,7 @@ nodes:
           pose: $node.pose
       node: WayPoint9
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint8_WayPoint7
       action: move_base
@@ -506,7 +506,7 @@ nodes:
           pose: $node.pose
       node: WayPoint7
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -529,7 +529,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -546,7 +546,7 @@ nodes:
           pose: $node.pose
       node: WayPoint8
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint9_WayPoint10
       action: move_base
@@ -561,7 +561,7 @@ nodes:
           pose: $node.pose
       node: WayPoint10
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -584,7 +584,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -601,7 +601,7 @@ nodes:
           pose: $node.pose
       node: WayPoint11
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint10_WayPoint9
       action: move_base
@@ -616,7 +616,7 @@ nodes:
           pose: $node.pose
       node: WayPoint9
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -639,7 +639,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -656,7 +656,7 @@ nodes:
           pose: $node.pose
       node: WayPoint10
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint11_WayPoint12
       action: move_base
@@ -671,7 +671,7 @@ nodes:
           pose: $node.pose
       node: WayPoint12
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -694,7 +694,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -711,7 +711,7 @@ nodes:
           pose: $node.pose
       node: WayPoint11
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint12_WayPoint45
       action: move_base
@@ -726,7 +726,7 @@ nodes:
           pose: $node.pose
       node: WayPoint45
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint12_WayPoint13
       action: move_base
@@ -741,7 +741,7 @@ nodes:
           pose: $node.pose
       node: WayPoint13
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -764,7 +764,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -781,7 +781,7 @@ nodes:
           pose: $node.pose
       node: WayPoint14
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint13_WayPoint12
       action: move_base
@@ -796,7 +796,7 @@ nodes:
           pose: $node.pose
       node: WayPoint12
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -819,7 +819,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -836,7 +836,7 @@ nodes:
           pose: $node.pose
       node: WayPoint15
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint14_WayPoint13
       action: move_base
@@ -851,7 +851,7 @@ nodes:
           pose: $node.pose
       node: WayPoint13
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -874,7 +874,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -891,7 +891,7 @@ nodes:
           pose: $node.pose
       node: WayPoint16
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint15_WayPoint14
       action: move_base
@@ -906,7 +906,7 @@ nodes:
           pose: $node.pose
       node: WayPoint14
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -929,7 +929,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -946,7 +946,7 @@ nodes:
           pose: $node.pose
       node: WayPoint15
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint16_WayPoint17
       action: move_base
@@ -961,7 +961,7 @@ nodes:
           pose: $node.pose
       node: WayPoint17
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -984,7 +984,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1001,7 +1001,7 @@ nodes:
           pose: $node.pose
       node: WayPoint18
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint17_WayPoint16
       action: move_base
@@ -1016,7 +1016,7 @@ nodes:
           pose: $node.pose
       node: WayPoint16
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1039,7 +1039,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1056,7 +1056,7 @@ nodes:
           pose: $node.pose
       node: WayPoint17
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint18_WayPoint19
       action: move_base
@@ -1071,7 +1071,7 @@ nodes:
           pose: $node.pose
       node: WayPoint19
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1094,7 +1094,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1111,7 +1111,7 @@ nodes:
           pose: $node.pose
       node: WayPoint18
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint19_WayPoint20
       action: move_base
@@ -1126,7 +1126,7 @@ nodes:
           pose: $node.pose
       node: WayPoint20
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1149,7 +1149,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1166,7 +1166,7 @@ nodes:
           pose: $node.pose
       node: WayPoint21
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint20_WayPoint19
       action: move_base
@@ -1181,7 +1181,7 @@ nodes:
           pose: $node.pose
       node: WayPoint19
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1204,7 +1204,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1221,7 +1221,7 @@ nodes:
           pose: $node.pose
       node: WayPoint22
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint21_WayPoint20
       action: move_base
@@ -1236,7 +1236,7 @@ nodes:
           pose: $node.pose
       node: WayPoint20
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1259,7 +1259,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1276,7 +1276,7 @@ nodes:
           pose: $node.pose
       node: WayPoint23
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint22_WayPoint21
       action: move_base
@@ -1291,7 +1291,7 @@ nodes:
           pose: $node.pose
       node: WayPoint21
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1314,7 +1314,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1331,7 +1331,7 @@ nodes:
           pose: $node.pose
       node: WayPoint24
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint23_WayPoint22
       action: move_base
@@ -1346,7 +1346,7 @@ nodes:
           pose: $node.pose
       node: WayPoint22
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1369,7 +1369,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1386,7 +1386,7 @@ nodes:
           pose: $node.pose
       node: WayPoint23
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint24_WayPoint25
       action: move_base
@@ -1401,7 +1401,7 @@ nodes:
           pose: $node.pose
       node: WayPoint25
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1424,7 +1424,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1441,7 +1441,7 @@ nodes:
           pose: $node.pose
       node: WayPoint26
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint25_WayPoint24
       action: move_base
@@ -1456,7 +1456,7 @@ nodes:
           pose: $node.pose
       node: WayPoint24
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1479,7 +1479,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1496,7 +1496,7 @@ nodes:
           pose: $node.pose
       node: WayPoint25
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint26_WayPoint27
       action: move_base
@@ -1511,7 +1511,7 @@ nodes:
           pose: $node.pose
       node: WayPoint27
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1534,7 +1534,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1551,7 +1551,7 @@ nodes:
           pose: $node.pose
       node: WayPoint26
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint27_WayPoint28
       action: move_base
@@ -1566,7 +1566,7 @@ nodes:
           pose: $node.pose
       node: WayPoint28
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1589,7 +1589,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1606,7 +1606,7 @@ nodes:
           pose: $node.pose
       node: WayPoint29
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint28_WayPoint27
       action: move_base
@@ -1621,7 +1621,7 @@ nodes:
           pose: $node.pose
       node: WayPoint27
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1644,7 +1644,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1661,7 +1661,7 @@ nodes:
           pose: $node.pose
       node: WayPoint30
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint29_WayPoint28
       action: move_base
@@ -1676,7 +1676,7 @@ nodes:
           pose: $node.pose
       node: WayPoint28
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1699,7 +1699,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1716,7 +1716,7 @@ nodes:
           pose: $node.pose
       node: WayPoint31
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint30_WayPoint29
       action: move_base
@@ -1731,7 +1731,7 @@ nodes:
           pose: $node.pose
       node: WayPoint29
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint30_WayPoint52
       action: move_base
@@ -1746,7 +1746,7 @@ nodes:
           pose: $node.pose
       node: WayPoint52
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1769,7 +1769,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1786,7 +1786,7 @@ nodes:
           pose: $node.pose
       node: WayPoint30
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint31_WayPoint32
       action: move_base
@@ -1801,7 +1801,7 @@ nodes:
           pose: $node.pose
       node: WayPoint32
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1824,7 +1824,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1841,7 +1841,7 @@ nodes:
           pose: $node.pose
       node: WayPoint31
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint32_WayPoint33
       action: move_base
@@ -1856,7 +1856,7 @@ nodes:
           pose: $node.pose
       node: WayPoint33
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1879,7 +1879,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1896,7 +1896,7 @@ nodes:
           pose: $node.pose
       node: WayPoint32
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint33_WayPoint34
       action: move_base
@@ -1911,7 +1911,7 @@ nodes:
           pose: $node.pose
       node: WayPoint34
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1934,7 +1934,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -1951,7 +1951,7 @@ nodes:
           pose: $node.pose
       node: WayPoint33
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint34_WayPoint35
       action: move_base
@@ -1966,7 +1966,7 @@ nodes:
           pose: $node.pose
       node: WayPoint35
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -1989,7 +1989,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2006,7 +2006,7 @@ nodes:
           pose: $node.pose
       node: WayPoint34
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2029,7 +2029,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2046,7 +2046,7 @@ nodes:
           pose: $node.pose
       node: WayPoint3
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint36_WayPoint37
       action: move_base
@@ -2061,7 +2061,7 @@ nodes:
           pose: $node.pose
       node: WayPoint37
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2084,7 +2084,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2101,7 +2101,7 @@ nodes:
           pose: $node.pose
       node: WayPoint38
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint37_WayPoint44
       action: move_base
@@ -2116,7 +2116,7 @@ nodes:
           pose: $node.pose
       node: WayPoint44
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint37_WayPoint36
       action: move_base
@@ -2131,7 +2131,7 @@ nodes:
           pose: $node.pose
       node: WayPoint36
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2154,7 +2154,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2171,7 +2171,7 @@ nodes:
           pose: $node.pose
       node: WayPoint37
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint38_WayPoint39
       action: move_base
@@ -2186,7 +2186,7 @@ nodes:
           pose: $node.pose
       node: WayPoint39
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2209,7 +2209,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2226,7 +2226,7 @@ nodes:
           pose: $node.pose
       node: WayPoint6
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint39_WayPoint38
       action: move_base
@@ -2241,7 +2241,7 @@ nodes:
           pose: $node.pose
       node: WayPoint38
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2264,7 +2264,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2281,7 +2281,7 @@ nodes:
           pose: $node.pose
       node: WayPoint51
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint40_WayPoint41
       action: move_base
@@ -2296,7 +2296,7 @@ nodes:
           pose: $node.pose
       node: WayPoint41
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2319,7 +2319,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2336,7 +2336,7 @@ nodes:
           pose: $node.pose
       node: WayPoint40
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint41_WayPoint42
       action: move_base
@@ -2351,7 +2351,7 @@ nodes:
           pose: $node.pose
       node: WayPoint42
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint41_WayPoint45
       action: move_base
@@ -2366,7 +2366,7 @@ nodes:
           pose: $node.pose
       node: WayPoint45
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2389,7 +2389,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2406,7 +2406,7 @@ nodes:
           pose: $node.pose
       node: WayPoint41
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint42_WayPoint43
       action: move_base
@@ -2421,7 +2421,7 @@ nodes:
           pose: $node.pose
       node: WayPoint43
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2444,7 +2444,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2461,7 +2461,7 @@ nodes:
           pose: $node.pose
       node: WayPoint44
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint43_WayPoint42
       action: move_base
@@ -2476,7 +2476,7 @@ nodes:
           pose: $node.pose
       node: WayPoint42
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2499,7 +2499,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2516,7 +2516,7 @@ nodes:
           pose: $node.pose
       node: WayPoint43
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint44_WayPoint37
       action: move_base
@@ -2531,7 +2531,7 @@ nodes:
           pose: $node.pose
       node: WayPoint37
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2554,7 +2554,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2571,7 +2571,7 @@ nodes:
           pose: $node.pose
       node: WayPoint41
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint45_WayPoint12
       action: move_base
@@ -2586,7 +2586,7 @@ nodes:
           pose: $node.pose
       node: WayPoint12
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint45_WayPoint46
       action: move_base
@@ -2601,7 +2601,7 @@ nodes:
           pose: $node.pose
       node: WayPoint46
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2624,7 +2624,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2641,7 +2641,7 @@ nodes:
           pose: $node.pose
       node: WayPoint47
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint46_WayPoint45
       action: move_base
@@ -2656,7 +2656,7 @@ nodes:
           pose: $node.pose
       node: WayPoint45
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2679,7 +2679,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2696,7 +2696,7 @@ nodes:
           pose: $node.pose
       node: WayPoint48
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint47_WayPoint46
       action: move_base
@@ -2711,7 +2711,7 @@ nodes:
           pose: $node.pose
       node: WayPoint46
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2734,7 +2734,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2751,7 +2751,7 @@ nodes:
           pose: $node.pose
       node: WayPoint49
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint48_WayPoint47
       action: move_base
@@ -2766,7 +2766,7 @@ nodes:
           pose: $node.pose
       node: WayPoint47
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2789,7 +2789,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2806,7 +2806,7 @@ nodes:
           pose: $node.pose
       node: WayPoint48
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2829,7 +2829,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2846,7 +2846,7 @@ nodes:
           pose: $node.pose
       node: WayPoint51
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2869,7 +2869,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2886,7 +2886,7 @@ nodes:
           pose: $node.pose
       node: WayPoint40
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint51_WayPoint50
       action: move_base
@@ -2901,7 +2901,7 @@ nodes:
           pose: $node.pose
       node: WayPoint50
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2924,7 +2924,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2941,7 +2941,7 @@ nodes:
           pose: $node.pose
       node: WayPoint30
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint52_WayPoint53
       action: move_base
@@ -2956,7 +2956,7 @@ nodes:
           pose: $node.pose
       node: WayPoint53
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -2979,7 +2979,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -2996,7 +2996,7 @@ nodes:
           pose: $node.pose
       node: WayPoint54
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint53_WayPoint52
       action: move_base
@@ -3011,7 +3011,7 @@ nodes:
           pose: $node.pose
       node: WayPoint52
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3034,7 +3034,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3051,7 +3051,7 @@ nodes:
           pose: $node.pose
       node: WayPoint55
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint54_WayPoint53
       action: move_base
@@ -3066,7 +3066,7 @@ nodes:
           pose: $node.pose
       node: WayPoint53
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3089,7 +3089,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3106,7 +3106,7 @@ nodes:
           pose: $node.pose
       node: WayPoint56
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint55_WayPoint54
       action: move_base
@@ -3121,7 +3121,7 @@ nodes:
           pose: $node.pose
       node: WayPoint54
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3144,7 +3144,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3161,7 +3161,7 @@ nodes:
           pose: $node.pose
       node: WayPoint55
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint56_WayPoint57
       action: move_base
@@ -3176,7 +3176,7 @@ nodes:
           pose: $node.pose
       node: WayPoint57
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3199,7 +3199,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3216,7 +3216,7 @@ nodes:
           pose: $node.pose
       node: WayPoint56
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint57_WayPoint58
       action: move_base
@@ -3231,7 +3231,7 @@ nodes:
           pose: $node.pose
       node: WayPoint58
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3254,7 +3254,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3271,7 +3271,7 @@ nodes:
           pose: $node.pose
       node: WayPoint59
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint58_WayPoint57
       action: move_base
@@ -3286,7 +3286,7 @@ nodes:
           pose: $node.pose
       node: WayPoint57
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3309,7 +3309,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3326,7 +3326,7 @@ nodes:
           pose: $node.pose
       node: WayPoint60
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint59_WayPoint58
       action: move_base
@@ -3341,7 +3341,7 @@ nodes:
           pose: $node.pose
       node: WayPoint58
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3364,7 +3364,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3381,7 +3381,7 @@ nodes:
           pose: $node.pose
       node: WayPoint59
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint60_WayPoint61
       action: move_base
@@ -3396,7 +3396,7 @@ nodes:
           pose: $node.pose
       node: WayPoint61
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3419,7 +3419,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3436,7 +3436,7 @@ nodes:
           pose: $node.pose
       node: WayPoint62
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint61_WayPoint60
       action: move_base
@@ -3451,7 +3451,7 @@ nodes:
           pose: $node.pose
       node: WayPoint60
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3474,7 +3474,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3491,7 +3491,7 @@ nodes:
           pose: $node.pose
       node: WayPoint61
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint62_WayPoint63
       action: move_base
@@ -3506,7 +3506,7 @@ nodes:
           pose: $node.pose
       node: WayPoint63
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3529,7 +3529,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3546,7 +3546,7 @@ nodes:
           pose: $node.pose
       node: WayPoint62
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint63_WayPoint64
       action: move_base
@@ -3561,7 +3561,7 @@ nodes:
           pose: $node.pose
       node: WayPoint64
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3584,7 +3584,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3601,7 +3601,7 @@ nodes:
           pose: $node.pose
       node: WayPoint65
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint64_WayPoint63
       action: move_base
@@ -3616,7 +3616,7 @@ nodes:
           pose: $node.pose
       node: WayPoint63
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3639,7 +3639,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3656,7 +3656,7 @@ nodes:
           pose: $node.pose
       node: WayPoint66
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint65_WayPoint64
       action: move_base
@@ -3671,7 +3671,7 @@ nodes:
           pose: $node.pose
       node: WayPoint64
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3694,7 +3694,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3711,7 +3711,7 @@ nodes:
           pose: $node.pose
       node: WayPoint65
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint66_WayPoint67
       action: move_base
@@ -3726,7 +3726,7 @@ nodes:
           pose: $node.pose
       node: WayPoint67
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3749,7 +3749,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3766,7 +3766,7 @@ nodes:
           pose: $node.pose
       node: WayPoint66
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint67_WayPoint68
       action: move_base
@@ -3781,7 +3781,7 @@ nodes:
           pose: $node.pose
       node: WayPoint68
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3804,7 +3804,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3821,7 +3821,7 @@ nodes:
           pose: $node.pose
       node: WayPoint67
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint68_WayPoint69
       action: move_base
@@ -3836,7 +3836,7 @@ nodes:
           pose: $node.pose
       node: WayPoint69
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3859,7 +3859,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3876,7 +3876,7 @@ nodes:
           pose: $node.pose
       node: WayPoint68
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint69_WayPoint70
       action: move_base
@@ -3891,7 +3891,7 @@ nodes:
           pose: $node.pose
       node: WayPoint70
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3914,7 +3914,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3931,7 +3931,7 @@ nodes:
           pose: $node.pose
       node: WayPoint71
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint70_WayPoint69
       action: move_base
@@ -3946,7 +3946,7 @@ nodes:
           pose: $node.pose
       node: WayPoint69
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -3969,7 +3969,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -3986,7 +3986,7 @@ nodes:
           pose: $node.pose
       node: WayPoint70
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint71_WayPoint72
       action: move_base
@@ -4001,7 +4001,7 @@ nodes:
           pose: $node.pose
       node: WayPoint72
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -4024,7 +4024,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -4041,7 +4041,7 @@ nodes:
           pose: $node.pose
       node: WayPoint71
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint72_WayPoint73
       action: move_base
@@ -4056,7 +4056,7 @@ nodes:
           pose: $node.pose
       node: WayPoint73
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -4079,7 +4079,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -4096,7 +4096,7 @@ nodes:
           pose: $node.pose
       node: WayPoint74
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint73_WayPoint72
       action: move_base
@@ -4111,7 +4111,7 @@ nodes:
           pose: $node.pose
       node: WayPoint72
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -4134,7 +4134,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -4151,7 +4151,7 @@ nodes:
           pose: $node.pose
       node: WayPoint75
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
     - edge_id: WayPoint74_WayPoint73
       action: move_base
@@ -4166,7 +4166,7 @@ nodes:
           pose: $node.pose
       node: WayPoint73
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
 - meta:
     map: briary_hill
@@ -4189,7 +4189,7 @@ nodes:
     properties:
       xy_goal_tolerance: 0.3
       yaw_goal_tolerance: 0.1
-    restrictions_planning: robot
+    restrictions_planning: 'True'
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
@@ -4206,5 +4206,5 @@ nodes:
           pose: $node.pose
       node: WayPoint74
       recovery_behaviours_config: ''
-      restrictions_planning: robot
+      restrictions_planning: 'True'
       restrictions_runtime: obstacleFree_1
