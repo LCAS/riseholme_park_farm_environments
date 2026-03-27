@@ -42,8 +42,14 @@ qtcreator-*
 /planning/docs
 /planning/src
 
+<<<<<<< Updated upstream
 **/*~
 **/*.swp
+=======
+*~
+*.swp
+*.egg-info/
+>>>>>>> Stashed changes
 
 # Emacs
 .#*
