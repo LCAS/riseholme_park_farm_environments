@@ -10,3 +10,6 @@ To create a publically available environment, create a new branch on a fork of t
 
 # Private Environment
 Some environments may be requested by owners to be kept private. If this is the case, you can create your own repository using the `Use This Template` button, then set your new respository to private. Please note: it is advised you only do this if you must. Pulling updates from a template's source can become tedious and may create problems for your workflow.
+
+# Wiki
+For more information, please see the wiki at: [wiki](https://github.com/LCAS/environment_template/wiki)
