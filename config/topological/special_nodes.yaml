@@ -18,6 +18,8 @@ special_nodes:
 #  - {id: dock-1, descriptors: [charging_station]}
 #  - {id: dock-2, descriptors: [charging_station]}
 
+  - {id: s0, descriptors: [storage_dropoff]}
+
 kpi_target_region:
   all:
     polygon: [[28.95, -10.03], [12.00, -12.65], [15.19, -36.62], [32.94, -33.87]]
